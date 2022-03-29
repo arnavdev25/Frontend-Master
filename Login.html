@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        height:363px;
+        width:100%;
+         /* border:2px solid red;  */
+        margin-top: 90px;
+        background-color: #222;
+        color: white;
+    }
+
+    #input{
+        padding-top:  35px;
+        padding-left: 30%;
+        line-height: 40px;
+        font-size: 16px;
+        font-family: Open Sans,sans-serif;
+        color: #e6e6e6;
+        line-height: 40px;
+       
+        
+        
+    }
+    input[type=text],
+    input[type=password] {
+        width: 60%;
+        height: 40px;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        display: inline-block;
+        border: none;
+        box-sizing: border-box;
+        
+        
+        color: #e6e6e6;
+    font-family: Open Sans,sans-serif;
+
+font-size: 16px;    font-size: 16px;
+    line-height: 10px;
+    
+        
+    }
+    input[type=checkbox]{
+        margin-top: 25px;
+    }
+    button{
+        margin-top: 20px;
+        height: 60px;
+        width: 110px;
+        border-radius: 35px;
+        color: white;
+        background-color: #c02d28;
+        border: none;
+        font-family: inherit;
+        font-size: 16px;
+    }
+  .psw{
+        
+        color: #c02d28;
+        margin-left: 20px;
+       font-family:Open Sans,sans-serif;
+
+    }
+    @media only screen and (max-width: 500px) { 
+        #container{
+            width: 100%;
+
+        }
+        #input{
+         padding-top:  10px;
+        padding-left: 10px;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: Open Sans,sans-serif;
+        color: #e6e6e6;
+       
+        }
+        #username{
+            margin-top: 15px;
+            width: 90%;
+            margin-bottom: 10px;
+        }
+        #password{
+            margin-top: 15px;
+            width: 90%;
+        }
+        #submit-button{
+         margin-top: 20px;
+       height: 40px;
+
+        }
+        .psw{
+            margin-top: 13px;
+           display: block;
+        }
+      
+    }
+              
+</style>
+<body>
+    <div id="container">
+        <div id="input">
+            <label for="uname"><b>Username Or Email</b></label><br>
+            <input type="text" id="username" placeholder="Username Or Email"><br>
+
+            <label for="uname" id="password-Name"><b>Password</b></label><br>
+            <input type="text" id="password" placeholder="Password"><br>
+
+            <input type="checkbox" checked="checked"> Remember me<br>
+            <button type="submit" id="submit-button">Log In</button>
+            <a class="psw" href="#">Forgot your password?</a>
+      </div>
+    </div>
+</body>
+</html>
