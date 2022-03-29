@@ -6,7 +6,7 @@ function footer(){
             <a href="#"><li>Courses</li></a>
             <a href="#"><li>Learn</li></a>
             <a href="teacher.html"><li>Teachers</li></a>
-            <a href="#"><li>Guides</li></a>
+            <a href="grades.html"><li>Guides</li></a>
             <a href="#"><li>Pricing</li></a>
             <a href="Login.html"><li>Login</li></a>
             <a href="#"><li>Join Now</li></a>

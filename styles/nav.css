@@ -10,6 +10,7 @@
     box-sizing: border-box;
     overflow: hidden;
     background-color: black;
+    /* position: absolute; */
 
     /* position: fixed; */
 
@@ -89,10 +90,21 @@ a{
     margin: 10px 80px;
     height: 50px;
 }
+#clip{
+    clip-path: polygon(100% 0, 0 0, 100% 27%);
+    height: 150px;
+    width: 100%;
+    background: #c94f17;
+    margin-top: 5px;
+    position: absolute; 
+    /* margin-bottom:-20px; */
+
+}
 @media all and (max-width:768px) and (min-width:381px){
 .navbar {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .header{
     height: 130px;
@@ -151,3 +163,4 @@ a{
         }
     
     }
+    

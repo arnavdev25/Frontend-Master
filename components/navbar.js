@@ -1,6 +1,7 @@
 function navbar(){
     return ` <nav class="navbar">
-    <img src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" id="logo">
+    <a href="index.html">    <img src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" id="logo">
+       </a>
        <ul class="nav-menu">
            <li class="nav-item">
                <a href="#" class="nav-link">Courses</a>
@@ -22,7 +23,9 @@ function navbar(){
            <span class="bar"></span>
            <span class="bar"></span>
        </div>
-   </nav>`
+   </nav>
+   <section id="clip"></section>
+   `
 }
 
 export default navbar;

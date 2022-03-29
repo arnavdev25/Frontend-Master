@@ -13,20 +13,22 @@ body{
 }
 #banner {
     width: 100%;
-    /* margin-top: 100px; */
+  
     height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
        /* position: absolute; */
+       
+      
 }
 #banner video {
     width: 100%;
       position: absolute;
    height: 100%;
    object-fit: cover;
-   margin-top: 80px;
+   margin-top: 85px;
    top:0;
    left: 0;
    pointer-events: none;
@@ -223,4 +225,16 @@ margin-top: 10px;
     #join div {
         margin: 20px;
     }
+}
+#clip1{
+    background-color:  #581010;;
+    height: 150px;
+    width: 100%;
+        /* clip-path: polygon(100% 0, 0 0, 98% 56%);
+         */
+         /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 99% 20%, 0 1%); */
+         clip-path: polygon(100% 0, 0 28%, 100% 26%);
+          margin-top: -30px;
+          margin-bottom: -120px;
+
 }
