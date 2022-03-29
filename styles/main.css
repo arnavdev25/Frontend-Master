@@ -43,7 +43,7 @@ body{
 }
 #banner #contents h2 {
     font-size: 34px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 #banner button, #join button {

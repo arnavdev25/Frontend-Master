@@ -105,17 +105,18 @@
  import footer from "./components/footer.js"
 
  document.querySelector("#footer").innerHTML=footer()
-
-</script>
-<script>
-    const hamburger = document.querySelector(".hamburger");
+ const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav-menu");
     console.log(hamburger)
     hamburger.addEventListener("click",function(){
+
         hamburger.classList.toggle("active");
         navMenu.classList.toggle("active");
+        
     })
-    </script>
+
+</script>
+
 <script src="https://kit.fontawesome.com/2ab2a134b6.js" crossorigin="anonymous"></script>
 <script src="scripts/index.js" type="module"></script>
   <script src="scripts/data.js"></script>

@@ -127,7 +127,7 @@ a{
             /* position: relative; */
             left: -100%;
             top: 5rem;
-            flex-direction: column;
+            flex-direction: column-reverse;
             background-color: #000000d0;
             width: 100%;
             border-radius: 10px;
