@@ -1,31 +1,173 @@
+  *{
+      background-color: #222222;
+  }
+  
   #main {
-        width: 70%;
+        width: 80%;
         margin: auto;
-        height: 3000px;
-        border: 1px solid red;
+        height: auto;
+        /* border: 5px solid red; */
+        /* padding: 30px; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(10, 1fr);
-        grid-gap: 10px;
+        grid-gap:20px;
       }
       .c {
-        width: 100%;
-        height: 60%;
-        margin: auto;
-        background-color: aqua;
+        width: 451px;
+        height: 377px;
+        /* border: 5px solid red; */
+
+        /* background-color: aqua; */
       }
       #outer {
-        width: 80%;
-        height: 100%;
-        margin: auto;
-        border: 1px solid yellow;
-        background-color: green;
+        width: 377.5px;
+        height: 377.5px;
+        /* border: 5px solid yellow; */
+        opacity: .2;
+
+        /* background-color: green; */
       }
 
       #inner {
+        width: 451px;
+        height: 377.5px;
+        margin: -377px 0 0 30px;
+        /* border: 5px solid green; */
+        /* background-color: yellow; */
+
+        background-image: radial-gradient(circle at left center, rgba(0, 0, 0, 0.3) 0px, rgb(0, 0, 0) 25%);
+      }
+
+      .btnClass{
+          height: 40px;
+          width: 87%;
+          /* border:solid 1px white; */
+          padding: 30px;
+          margin-left: 0px;
+      }
+      .descriptionClass{
+          height: 280px;
+          width: 100%;
+          /* border:solid 1px white; */
+
+
+
+      }
+
+      .title{
+            color: #DD625E;
+            margin-left: 20px;
+      }
+
+      .instructorClass{
+          height: 80px;
+          width: 100%;
+          /* border:solid 1px red; */
+         
+      }
+      .descrClass{
+          height: 100px;
+          width: 100%;
+          /* border:solid 1px green; */
+      }
+      .timeClass{
+          height: 40px;
+          width: 100%;
+          /* border:solid 1px yellow */
+      }
+      .time{
+          color: white;
+          margin-left:20px;
+          margin-top: 3px;
+
+      }
+
+
+.instructor_img{
+    height: 78px;
+    width: 78px;
+    border-radius: 100%;
+    margin-left: 20px;
+
+}
+.instructorName ,.instructorOrg{
+    color: white;
+    margin-left: 10px;
+}
+
+.anchorClass{
+     display: flex;
+          flex-direction: row;
+
+}
+.instructorName{
+     margin-top:15px;
+   
+}
+
+
+      #btn1{
+    background-color:#C02D28;
+    color: white;
+    padding: 10px 20px;
+    /* height: 45px; */
+    margin-left: 0px;
+    border: none;
+    border-radius:40px;
+    line-height:1.25;
+}
+#btn2{
+    background-color:#c94f17;
+    color: white;
+    padding: 10px 20px;
+    /* height: 45px; */
+    margin-left: 5px;
+    border: none;
+    border-radius:40px;
+    line-height:1.25;
+}
+
+
+
+    @media all and (max-width:768px) and (min-width:381px){
+      
+     #main {
+        grid-template-columns: repeat(1 ,1fr);
+     }
+   /* #inner {
         width: 80%;
         height: 100%;
-        margin: -177px 0 0 19%;
+        margin: -100px 0 0 80px;
         border: 1px solid green;
         background-color: yellow;
+      } */
+         #inner {
+        width: 451px;
+        height: 377.5px;
+        margin: -377px 0 0 30px;
+        /* border: 5px solid green; */
+        /* background-color: yellow; */
+
+        background-image: radial-gradient(circle at left center, rgba(0, 0, 0, 0.3) 0px, rgb(0, 0, 0) 25%);
       }
+     }
+     @media all and (min-width: 50px) and (max-width: 380px) {
+        #main {
+        grid-template-columns: repeat(1 ,1fr);
+        /* margin-top: -10px; */
+     }
+   /* #inner {
+        width: 80%;
+        height: 100%;
+        margin: -100px 0 0 80px;
+        border: 1px solid green;
+        background-color: yellow;
+      } */
+    }
+
+    #courses_img{
+    height: 100%;
+    width: 100%;
+    /* opacity: 30% ; */
+}
