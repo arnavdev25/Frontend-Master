@@ -7,19 +7,26 @@ body{
     font-size: 16px;
     /* line-height: 1.5; */
 }
+*{
+    box-sizing: border-box;
+
+}
 #banner {
     width: 100%;
+    /* margin-top: 100px; */
     height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+       /* position: absolute; */
 }
 #banner video {
     width: 100%;
-   position: absolute;
+      position: absolute;
    height: 100%;
    object-fit: cover;
+   margin-top: 80px;
    top:0;
    left: 0;
    pointer-events: none;
@@ -36,12 +43,14 @@ body{
 }
 #banner #contents h2 {
     font-size: 34px;
-    margin-top: -30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 #banner button, #join button {
     background: #c94f17;
     border: none;
     border-radius: 40px;
+
     color: #fff;
     display: block;
     font-size: 20px;
@@ -74,6 +83,8 @@ body{
 #icons img {
     height: 90px;
     width: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
    
 }
 #icons img:hover {
@@ -123,7 +134,7 @@ margin-top: 10px;
 }
 #bootcamp{
     margin-top: 700px;
-    height: 300px;
+    height: 350px;
     width: 100%;
     text-align: center;
     /* display: flex; */
@@ -139,13 +150,17 @@ margin-top: 10px;
 }
 #bootcamp a {
     color: #dd625e;
+    /* margin-top: 15px; */
 }
 #bootcamp a:hover {
     color: chocolate;
 }
 #bootcamp p {
     line-height: 27px;
+    margin-bottom: 15px;
 }
+
+
 @media all and (max-width:768px) and (min-width:381px){
     #banner  {
         background-size:auto, cover;
@@ -166,13 +181,13 @@ margin-top: 10px;
         width: 80%;
         text-align: center;
     }
-    #join div {
-        margin: auto;
-    }
+    /* #join button {
+        background-color: #222;
+    } */
     #bootcamp{
         margin-top: 500px;
     }
-    
+   
 }
 @media all and (min-width:50px) and (max-width:380px){
     #banner  {
@@ -193,7 +208,7 @@ margin-top: 10px;
     }
     #banner #contents h2  {
         font-size: 15px;
-        margin-top: -15px;
+        /* margin-top: -15px; */
     }
     #contents>div {
         display: flex;

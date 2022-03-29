@@ -6,10 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Master Website</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="styles/home-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
 <!-- -----------------------------Navbar Start----------------------------------------------- -->
-<div id="navbar"></div>
+<header class="header">
+   
+</header>
+
+
+
+
 <!-- ---------------------------------Navbar End-------------------------------------------- -->
 <!-- ---------------------------------------Landing Start--------------------------------------- -->
 <div id="banner">
@@ -42,7 +65,7 @@
 <!-- -----------------------------------------Landing End----------------------------------------    -->
 <!-- ---------------------------------------------Slide Bar Start----------------------------------------- -->
 
-         <div id="slidebar">
+         <div class="slider-container">
 
          </div>
 
@@ -66,7 +89,33 @@
 
 <!-- -------------------------------------------------Join and Boot Camp End-------------------------------------------- -->
 <!-- -------------------------------------Footer Start------------------------------------------ -->
-<div id="footer"></div>
+<div id="footer">
+   
+
+
+
+</div>
 <!-- -----------------------------------------Footer End----------------------------------------------- -->
 </body>
 </html>
+<script type="module">
+ import navbar from "./components/navbar.js"
+//  console.log(navbar)
+ document.querySelector(".header").innerHTML=navbar()
+ import footer from "./components/footer.js"
+
+ document.querySelector("#footer").innerHTML=footer()
+
+</script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    console.log(hamburger)
+    hamburger.addEventListener("click",function(){
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+    </script>
+<script src="https://kit.fontawesome.com/2ab2a134b6.js" crossorigin="anonymous"></script>
+<script src="scripts/index.js" type="module"></script>
+  <script src="scripts/data.js"></script>
