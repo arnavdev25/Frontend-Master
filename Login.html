@@ -18,12 +18,13 @@
 
     #input{
         padding-top:  35px;
-        margin-left: 400px;
+        padding-left: 30%;
         line-height: 40px;
         font-size: 16px;
         font-family: Open Sans,sans-serif;
         color: #e6e6e6;
         line-height: 40px;
+       
         
         
     }
@@ -68,16 +69,53 @@ font-size: 16px;    font-size: 16px;
        font-family:Open Sans,sans-serif;
 
     }
+    @media only screen and (max-width: 500px) { 
+        #container{
+            width: 100%;
+
+        }
+        #input{
+         padding-top:  10px;
+        padding-left: 10px;
+        line-height: 20px;
+        font-size: 16px;
+        font-family: Open Sans,sans-serif;
+        color: #e6e6e6;
+       
+        }
+        #username{
+            margin-top: 15px;
+            width: 90%;
+            margin-bottom: 10px;
+        }
+        #password{
+            margin-top: 15px;
+            width: 90%;
+        }
+        #submit-button{
+         margin-top: 20px;
+       height: 40px;
+
+        }
+        .psw{
+            margin-top: 13px;
+           display: block;
+        }
+      
+    }
+              
 </style>
 <body>
     <div id="container">
         <div id="input">
             <label for="uname"><b>Username Or Email</b></label><br>
-            <input type="text" placeholder="Username Or Email"><br>
-            <label for="uname"><b>Password</b></label><br>
-            <input type="text" placeholder="Password"><br>
+            <input type="text" id="username" placeholder="Username Or Email"><br>
+
+            <label for="uname" id="password-Name"><b>Password</b></label><br>
+            <input type="text" id="password" placeholder="Password"><br>
+
             <input type="checkbox" checked="checked"> Remember me<br>
-            <button type="submit">Log In</button>
+            <button type="submit" id="submit-button">Log In</button>
             <a class="psw" href="#">Forgot your password?</a>
       </div>
     </div>
