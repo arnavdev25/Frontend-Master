@@ -974,6 +974,37 @@
 
   console.log(coursesData);
 
+  //instructor_image data
+
+  for (let i = 0; i < 87; i++) {
+    if (i < 10) {
+      coursesData[i].instructor_img_url =
+        "./instructors_images/instructor_00" + (i + 1) + ".webp";
+    } else {
+      coursesData[i].instructor_img_url =
+        "./instructors_images/instructor_0" + (i + 1) + ".webp";
+    }
+  }
+
+  //course_images data
+  for (let i = 0; i < 87; i++) {
+    if (i < 10) {
+      coursesData[i].course_img_url =
+        "./course_images/course_00" + (i + 1) + ".webp";
+    } else {
+      coursesData[i].course_img_url =
+        "./course_images/course_0" + (i + 1) + ".webp";
+    }
+  }
+
+  //description data
+  for (let i = 0; i < 87; i++) {
+    coursesData[i].course_description =
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis maiores perspiciatis dolor! Id voluptatum aliquam quia, reiciendis debitis ut magnam pariatur! Dolor consectetur alias esse quasi, fugiat perspiciatis temporibus?";
+  }
+
+  console.log(coursesData);
+
   import append from "./scripts/courses.js";
   console.log("append:", append);
 
