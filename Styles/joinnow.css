@@ -507,7 +507,7 @@
 #form>form{
     background: #111;
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 40%);
-    border:2px solid pink;
+    /* border:2px solid pink; */
     height:900px;
     width:38%;
     margin:10px auto;
