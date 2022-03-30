@@ -622,3 +622,7 @@
 #box > div.active:hover > .para > p {
   background: #90221e;
 }
+
+@media screen (min-width:){
+  
+}
