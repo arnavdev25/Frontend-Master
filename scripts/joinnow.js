@@ -3,6 +3,10 @@
 
 function myFunction(){
     document.getElementById("first").style.backgroundColor="red";
+    document.getElementsByClassName("head").style.backgroundColor="red";
+    document.getElementsByClassName("name").style.backgroundColor="red";
+    document.getElementsByClassName("para").style.backgroundColor="red";
+    
   
    
 }
