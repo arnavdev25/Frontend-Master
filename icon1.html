@@ -5,16 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <style>
-        #grid {
-            height: 100px;
-            width: 100%;
-            /* background:black; */
-            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQA…EQVR42mNg+M8AAhASDUClAEXeA/1LlYqzAAAAAElFTkSuQmCC);
-        }
+       
     </style>
 </head>
 <body>
+    <header class="header"></header>
     <div id="grid"></div>
+    <div id="footer"></div>
 </body>
 </html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+   //  console.log(navbar)
+    document.querySelector(".header").innerHTML=navbar()
+    import footer from "./components/footer.js"
+
+document.querySelector("#footer").innerHTML=footer()
+
+const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+</script>
+<script src="https://kit.fontawesome.com/2ab2a134b6.js" crossorigin="anonymous"></script>
+<script src="./scripts/teacher-data.js"></script>
