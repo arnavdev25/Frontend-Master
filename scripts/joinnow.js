@@ -13,3 +13,29 @@ function colorChange(item) {
   });
   item.classList.add("active");
 }
+
+
+document.querySelector("#form").addEventListener("submit",myFormSubmit);
+  
+var signinobj=JSON.parse(localStorage.getItem("registeredIds")) || [];
+  //console.log(signinArr);
+function myFormSubmit(event){
+      event.preventDefault();  
+      var signinobj=[{
+          email:document.querySelector("#email").value,
+          fname:document.querySelector("#first_name").value,
+          lname:document.querySelector("#last_name").value,
+          password:document.querySelector("#password").value,
+          password_again:document.querySelector("#password_again").value,
+          placeholder:document.querySelector("#placeholder").value,
+          card_num:document.querySelector("#card_num").value,
+      }];
+      document.querySelector("#email").value=""
+
+     
+      localStorage.setItem("registeredIds",JSON.stringify(signinobj));
+
+
+    window.location.href="https://frontendmasters.com/"
+
+  }
