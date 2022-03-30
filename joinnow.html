@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/joinnow.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Document</title>
 </head>
 <body>
-
-  <div id="clip"></div>
+<header class="header"></header>
+  <!-- <div id="clip"></div> -->
   <div id="body">
    
     <div id="text1">
@@ -226,8 +228,24 @@
     </div>
   </div>
 
-
+<div id="footer"></div>
     
 </body>
 </html>
 <script src="./scripts/joinnow.js"></script>
+<script type="module">
+    import navbar from "./components/navbar.js"
+   //  console.log(navbar)
+    document.querySelector(".header").innerHTML=navbar()
+    import footer from "./components/footer.js"
+
+document.querySelector("#footer").innerHTML=footer()
+
+const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+</script>
+<script src="https://kit.fontawesome.com/2ab2a134b6.js" crossorigin="anonymous"></script>
+<!-- <script src="./scripts/teacher-data.js"></script> -->
