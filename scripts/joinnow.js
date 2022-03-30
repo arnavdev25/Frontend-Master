@@ -16,6 +16,7 @@ function colorChange(item) {
     el.classList.remove("active");
   });
   item.classList.add("active");
+
 }
 
 
@@ -49,3 +50,26 @@ function myFormSubmit(event){
     window.location.href="https://frontendmasters.com/"
 
   }
+
+  document.querySelector("#first").addEventListener("click",changeCol)
+  document.querySelector("#sec").addEventListener("click",changeCol1)
+  document.querySelector("#third").addEventListener("click",changeCol2)
+  document.querySelector("#fourth").addEventListener("click",changeCol3)
+  
+  function changeCol(){
+    let text=document.querySelector("#title")
+    text.innerHTML="Register for a Monthly Account"
+  }
+  function changeCol1(){
+    let text=document.querySelector("#title")
+    text.innerHTML="Register for a Yearly Account"
+  }
+  function changeCol2(){
+    let text=document.querySelector("#title")
+    text.innerHTML="Register for a Monthly Team Account"
+  }
+  function changeCol3(){
+    let text=document.querySelector("#title")
+    text.innerHTML="Register for a Yearly Team Account"
+  }
+  
