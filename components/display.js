@@ -54,6 +54,9 @@ function display(data,main){
            let displayArr=[];
            displayArr.push(el)
        })
+       btn1.addEventListener("click",function(){
+           window.location.href="joinnow.html"
+       })
         main.append(div)
     })
 }
