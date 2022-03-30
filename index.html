@@ -146,10 +146,9 @@
   import footer from "./components/footer.js";
 
   document.querySelector("#footer").innerHTML = footer();
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
+  const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
   hamburger.addEventListener("click", function () {
-    hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
   });
 </script>

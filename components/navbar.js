@@ -19,7 +19,21 @@ function navbar() {
       <li><a href="#">Join Now</a></li>
     </ul>
   </div>
+  <div class="menu">
+    <div class="icon">
+    <i class="fas fa-bars"></i>
+    </div>
+  </div>
 </div>
+<div class="mobile">
+    <ul>
+      <li><a href="#">Courses</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="Login.html">Login</a></li>
+      <li><a href="#">Join Now</a></li>
+    </ul>
+  </div>
 <svg
   class="diagonal"
   xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +42,7 @@ function navbar() {
 >
   <defs>
     <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c02d28"></stop>
+      <stop offset="0%" stop-color="#c02d28"></stop op>
       <stop offset="100%" stop-color="#e66225"></stop>
     </linearGradient>
   </defs>
