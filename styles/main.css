@@ -87,6 +87,7 @@ body{
     width: 90px;
     margin-top: 10px;
     margin-left: 10px;
+    opacity: .5;
    
 }
 #icons img:hover {
@@ -94,6 +95,7 @@ body{
    border-radius: 20px;
    padding: 10px;
    box-sizing: border-box;
+   opacity: 1;
    
 }
 #slidebar {
