@@ -597,3 +597,28 @@
   font-size: 22px;
   color: white;
 }
+
+#box > .active {
+  background-color: #90221e;
+}
+#box > .active > div {
+  background-color: #90221e;
+}
+#box > .active > div > div.name {
+  background-color: #90221e;
+}
+#box > .active > div > div.name > p {
+  background-color: #90221e;
+}
+#box > .active > div > p {
+  background-color: #90221e;
+}
+
+#box > div.active:hover,
+#box > div.active:hover > .head,
+#box > div.active:hover > .head > .name,
+#box > div.active:hover > .head > .name > p,
+#box > div.active:hover > .para,
+#box > div.active:hover > .para > p {
+  background: #90221e;
+}
