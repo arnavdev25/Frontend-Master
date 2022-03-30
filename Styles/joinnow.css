@@ -187,8 +187,8 @@
 #twitter > div:nth-child(3) {
   /* border:3px solid rgb(133, 23, 23); */
   width: 23%;
-  height: 300px;
-  margin: 30px 15px 10px 15px;
+  height: 330px;
+  margin: 10px 15px 10px 15px;
   border-radius: 10px;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -273,7 +273,7 @@
   height: auto;
   /* border:2px solid blue; */
   background: #fff;
-  margin: 15px;
+  margin: 5px;
 }
 #twitter > .twit:nth-child(1) > .three > p {
   font-size: 18px;
@@ -364,7 +364,7 @@
   height: auto;
   /* border:2px solid blue; */
   background: #fff;
-  margin: 15px;
+  margin: 5px;
 }
 #twitter > .twit:nth-child(2) > .three > p {
   font-size: 18px;
@@ -455,7 +455,7 @@
   height: auto;
   /* border:2px solid blue; */
   background: #fff;
-  margin: 15px;
+  margin: 5px;
 }
 #twitter > .twit:nth-child(3) > .three > p {
   font-size: 18px;
@@ -623,6 +623,114 @@
   background: #90221e;
 }
 
-@media screen (min-width:){
+@media only screen and (min-width: 1001px) and (max-width: 1320px){
+  #twitter > div:nth-child(3) {
+    width: 25%;
+    height: 400px;
+  }
+  #twitter > div:nth-child(2) {
+    width: 25%;
+    height: 420px;
+  }
+  #twitter > div:nth-child(1) {
+    width: 25%;
+    height: 260px;
+  }
+  #form {
+    width: 71%;
+    margin: 80px auto;
+  }
+  #box > div {
+    width: 22%;
+    margin: 0 8px;
+  }
+  
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1000px){
+
+  #text1 > h1{
+    font-size: 38px;
+  }
+  #text2 > h3{
+    font-size: 28px;
+  }
+  #twitter > div:nth-child(3) {
+    width: 35%;
+    height: 420px;
+    padding:6px;
+  }
+  #twitter > div:nth-child(2) {
+    width: 35%;
+    height: 420px;
+    padding:6px;
+  }
+  #twitter > div:nth-child(1) {
+    width: 35%;
+    height: 260px;
+    padding:6px;
+  }
+  #form {
+    width: 71%;
+    margin: 80px auto;
+  }
+  #box > div {
+    width: 22%;
+    margin: 0 8px;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 779px){
+
+  #text1 > h1{
+    font-size: 30px;
+  }
+  #text2 > h3{
+    font-size: 22px;
+  }
+  /* #twitter > div:nth-child(3) {
+    width: 35%;
+    height: 420px;
+    padding:6px;
+    box-sizing: border-box;
+   
+  }
+  #twitter > div:nth-child(2) {
+    width: 35%;
+    height: 420px;
+    padding:6px;
+  }
+  #twitter > div:nth-child(1) {
+    width: 35%;
+    height: 260px;
+    padding:6px;
+  } */
+  #form {
+    width: 81%;
+    margin: 100px auto;
+  }
+  #box > div {
+    width: 25%;
+    margin: 0 2px;
+  }
+  #logo{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #text3{
+    margin-top: 170px;
+  }
+  #question{
+    margin-top: 200px;
+  }
+  #twitter{
+    display:grid;
+    grid-template-columns: repeat(1,100%);
+   
+    border:2px solid green;
+  }
+  #twitter>div{
+    border:2px solid red;
+  }
   
 }
