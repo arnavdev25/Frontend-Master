@@ -1005,6 +1005,19 @@
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis maiores perspiciatis dolor! Id voluptatum aliquam quia, reiciendis debitis ut magnam pariatur! Dolor consectetur alias esse quasi, fugiat perspiciatis temporibus?";
   }
 
+  //time Data
+
+  for (let i = 1; i < 87; i++) {
+    coursesData[i].time =
+      Math.floor(Math.random() * 13) +
+      " " +
+      "hours" +
+      " " +
+      Math.floor(Math.random() * 60) +
+      " " +
+      "Minutes";
+  }
+
   console.log(coursesData);
 
   import append from "./scripts/courses.js";

@@ -76,14 +76,26 @@ const append = (data, parent)=>{
         
         let descrClass = document.createElement("div");
         descrClass.className = "descrClass";
+
+        let description = document.createElement("p");
+        description.innerText = el.course_description;
+        description.className="description"
+
+        descrClass.append(description);
         
         let timeClass = document.createElement("div");
         timeClass.className = "timeClass";
 
 
-        let time = document.createElement("p");
+        let time = document.createElement("div");
         time.innerText = el.time;
-        time.className="time";
+        time.className = "time";
+        
+        let caption = document.createElement("strong");
+        caption.innerText = "CC";
+        caption.className = "caption"
+        
+        time.append( caption)
 
         timeClass.append(time);
         

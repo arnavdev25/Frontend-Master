@@ -1,5 +1,9 @@
   *{
+    font-family: sans-serif;
+  }
+  body{
       background-color: #222222;
+      
   }
   
   #main {
@@ -11,48 +15,52 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(10, 1fr);
-        grid-gap:20px;
+        grid-gap:80px;
       }
       .c {
         width: 451px;
         height: 377px;
+        position: relative;
         /* border: 5px solid red; */
 
         /* background-color: aqua; */
       }
       #outer {
         width: 377.5px;
-        height: 377.5px;
+        height: 360px;
         /* border: 5px solid yellow; */
-        opacity: .2;
+        opacity: 1; 
 
         /* background-color: green; */
       }
 
       #inner {
-        width: 451px;
-        height: 377.5px;
-        margin: -377px 0 0 30px;
-        /* border: 5px solid green; */
-        /* background-color: yellow; */
+        width: 400px;
+        height: 360px;
+        position: absolute;
+        top:-.01px;
+        left: 80px;
+        
 
         background-image: radial-gradient(circle at left center, rgba(0, 0, 0, 0.3) 0px, rgb(0, 0, 0) 25%);
       }
 
       .btnClass{
-          height: 40px;
+          height: 20px;
           width: 87%;
           /* border:solid 1px white; */
-          padding: 30px;
+          padding: 15px;
           margin-left: 0px;
       }
       .descriptionClass{
           height: 280px;
           width: 100%;
           /* border:solid 1px white; */
-
-
-
+      }
+      .description{
+        color: white;
+        margin-left:20px;
+        font-size:14px;
       }
 
       .title{
@@ -74,12 +82,24 @@
       .timeClass{
           height: 40px;
           width: 100%;
+        display: inline-block;
+
           /* border:solid 1px yellow */
       }
       .time{
-          color: white;
+          color:#6f7e78;
           margin-left:20px;
           margin-top: 3px;
+
+      }
+      .caption{
+        color:#222;
+        margin-left: 5px;
+        background-color:rgb(138, 138, 138);
+        padding:0 4px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
 
       }
 
@@ -135,39 +155,35 @@
      #main {
         grid-template-columns: repeat(1 ,1fr);
      }
-   /* #inner {
-        width: 80%;
-        height: 100%;
-        margin: -100px 0 0 80px;
-        border: 1px solid green;
-        background-color: yellow;
-      } */
-         #inner {
-        width: 451px;
-        height: 377.5px;
-        margin: -377px 0 0 30px;
-        /* border: 5px solid green; */
-        /* background-color: yellow; */
+
+       #inner {
+        width: 400px;
+        height: 360px;
+        position: absolute;
+        top:-.01px;
+        left: 80px;
 
         background-image: radial-gradient(circle at left center, rgba(0, 0, 0, 0.3) 0px, rgb(0, 0, 0) 25%);
       }
+
+
      }
      @media all and (min-width: 50px) and (max-width: 380px) {
         #main {
         grid-template-columns: repeat(1 ,1fr);
-        /* margin-top: -10px; */
      }
-   /* #inner {
-        width: 80%;
-        height: 100%;
-        margin: -100px 0 0 80px;
-        border: 1px solid green;
-        background-color: yellow;
-      } */
+       #inner {
+        width: 400px;
+        height: 360px;
+        position: absolute;
+        top:-.01px;
+        left: 80px;
+
+        background-image: radial-gradient(circle at left center, rgba(0, 0, 0, 0.3) 0px, rgb(0, 0, 0) 25%);
+      }
     }
 
     #courses_img{
     height: 100%;
     width: 100%;
-    /* opacity: 30% ; */
 }
