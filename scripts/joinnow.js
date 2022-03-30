@@ -1,4 +1,8 @@
 
+
+
+let box=document.getElementById("first")
+box.classList.add("active")
 let plan_boxes = document.querySelectorAll("#box>div");
 
 plan_boxes.forEach((item) => {
@@ -30,7 +34,13 @@ function myFormSubmit(event){
           placeholder:document.querySelector("#placeholder").value,
           card_num:document.querySelector("#card_num").value,
       }];
-      document.querySelector("#email").value=""
+      document.querySelector("#email").value="";
+      document.querySelector("#first_name").value="";
+      document.querySelector("#last_name").value="";
+      document.querySelector("#password").value="";
+      document.querySelector("#password_again").value="";
+      document.querySelector("#placeholder").value="";
+      document.querySelector("#card_num").value="";
 
      
       localStorage.setItem("registeredIds",JSON.stringify(signinobj));
