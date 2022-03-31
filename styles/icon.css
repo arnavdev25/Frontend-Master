@@ -44,7 +44,7 @@
     /* justify-content: space-between; */
 }
 #line {
-    height: 700px;
+    height: 540px;
     /* max-height: 500px; */
     width: 10px;
     background: #3e3e3e;
@@ -55,11 +55,29 @@
     margin-right: 20px;
     /* line-height: 400px; */
 }
+#plus2 {
+    position: relative;
+    background: #3e3e3e;
+    height: 50px;
+    width: 50px;
+    margin-left: 65px;
+    font-size: 35px;
+    /* padding: 5px; */
+    color:#fff;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
 #box {
     background: #3e3e3e;
     /* display: flex; */
     /* background-color: black; */
     height: 100px;
+    /* max-height: 250px; */
     width: 95%;
     margin: 25px auto ;
     /* padding: 20px 0px; */
@@ -71,12 +89,18 @@
     border-radius: 20px;
     display: none;
     margin-top: -50px;
+    /* max-height: 180px;
+     */
+     /* height: ; */
 
 }
 #box h6 {
     font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 7px;
     color: #fff;
+}
+#box p {
+    line-height: 20px;
 }
 #main .plus1 {
     position: relative;
@@ -95,12 +119,9 @@
     /* margin-bottom: 370px; */
    
 }
-#line .plus2 {
-    /* margin-top: 300px; */
-    border-radius: 50%;
-}
 
-#line .plus1:hover {
+
+#main .plus1:hover {
     background-color: grey;
 
     /* color: #222; */
@@ -111,7 +132,7 @@
      background-color: black;
      height: 400px;
      width: 95%;
-     margin: 25px auto ;
+     margin: 10px auto ;
      /* padding: 20px 0px; */
      box-sizing: border-box;
      margin-left: 60px;
@@ -243,6 +264,16 @@ font-weight: bold;
 #main h3 {
   font-size: 25px;
 }
+#box {
+    height: 140px;
+}
+#plus2 {
+    margin-top: -55px;
+    margin-left: 27px;
+}
+#line{
+    height: 600px;
+}
 #p2 {
   margin-bottom: 15px;
 }
@@ -252,10 +283,10 @@ font-weight: bold;
   #img {
    position: absolute;
    height: 550px;
+   width: 100%;
 }
-#main1 {
-    width: 100%;
-}
+
+
   #div1 {
     position: relative;
     margin-left: 20px;
@@ -264,8 +295,20 @@ font-weight: bold;
 #div {
   background-color: transparent;
   height: 550px;
-  width: 80%;
+  
 
+}
+#box {
+    height: 200px;
+    padding: 20px  25px;
+}
+
+#plus2 {
+    margin-top: -55px;
+    margin-left: 15px;
+}
+#line{
+    height: 800px;
 }
 #main h3 {
   font-size: 25px;

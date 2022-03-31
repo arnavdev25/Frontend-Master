@@ -51,7 +51,7 @@ function display(data,main){
         let div6 = document.createElement("div")
         let box = document.createElement("div")
         let h6 = document.createElement("h6")
-        h6.innerText=el.head1
+        h6.innerText="Editor's Notes"
         let box_p = document.createElement("p")
       
         box_p.innerText=el.de
@@ -62,7 +62,7 @@ function display(data,main){
         div6.setAttribute("id","div6")
        div1.append(h3,div2,p1,div5,div6)
        div.append(img,div1)
-       div.addEventListener("click",function(){
+       img.addEventListener("click",function(){
            window.location.href="display.html"
            let displayArr=[];
            displayArr.push(el)
@@ -73,14 +73,9 @@ function display(data,main){
        })
     //    document.getElementById("line").append(plus1)
         main.append(line,plus1,box,div)
-
-        if(box.style.display=="none"){
-            div.style.marginTop="-80px"
-            
-        }
-        else{
-            div.style.marginTop="0px"
-        }
+      plus1.addEventListener("click",function(){
+          box.style.display="block"
+      })
     })
    
 }
