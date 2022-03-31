@@ -83,12 +83,16 @@ body {
   width: 90px;
   margin-top: 10px;
   margin-left: 10px;
-  object-fit: contain;
-  transition: transform 0.5s ease;
+  opacity: 0.5;
 }
 #icons img:hover {
-  transform: scale(1.2);
+  /* border: 1px solid #eff; */
+  /* border-radius: 20px; */
+  /* padding: 10px; */
   box-sizing: border-box;
+  opacity: 1;
+  transform: scale(1.2);
+  /* box-sizing: border-box; */
 }
 #slidebar {
   background: #3a7bd5; /* fallback for old browsers */
@@ -226,6 +230,6 @@ body {
          */
   /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 99% 20%, 0 1%); */
   clip-path: polygon(100% 0, 0 28%, 100% 26%);
-  margin-top: -30px;
+  margin-top: -20px;
   margin-bottom: -120px;
 }

@@ -1,0 +1,553 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #2b2727; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text1 {
+  margin-top: -320px;
+  height: 10px;
+  width: 99.7%;
+}
+#text1 > h1 {
+  color: #e6e6e6;
+
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+#text2 {
+  margin-top: 60px;
+  height: 60px;
+  width: 100%;
+  /* border:2px solid lime */
+}
+#text2 > h3 {
+  color: #e6e6e6;
+
+  font-size: 39px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+}
+#logo {
+  margin-top: 30px;
+  height: 110px;
+  width: 100%;
+  /* border:2px solid lime; */
+  display: flex;
+  justify-content: center;
+}
+#logo > div {
+  /* border:2px solid white; */
+  height: 80px;
+  width: 80px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 4px 15px 15px 0;
+  margin-right: 20px;
+}
+#logo > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#text3 {
+  margin: 10px 0;
+  height: 50px;
+  width: 100%;
+  /* border:2px solid lime */
+}
+#text3 > p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  /* word-spacing: 3px; */
+  letter-spacing: 1px;
+}
+#text3 > p > span > a {
+  color: red;
+  letter-spacing: 1px;
+}
+#box {
+  height: 200px;
+  width: 100%;
+  /* border:2px solid lime; */
+  display: flex;
+  justify-content: center;
+}
+
+#box > div {
+  /* border:2px solid blue; */
+  height: 100%;
+  width: 18%;
+  margin: 0 13px;
+  background: #111;
+  border-top: 7px solid #3e3e3e;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
+  cursor: pointer;
+  position: relative;
+}
+#box > div:hover,
+#box > div:hover > .head,
+#box > div:hover > .head > .name,
+#box > div:hover > .head > .name > p,
+#box > div:hover > .para,
+#box > div:hover > .para > p {
+  background: rgb(29 27 27);
+}
+/* #box > div > .head,
+.para:hover {
+  background: rgba(17, 17, 17, 0.534);
+} */
+#box > div > .head {
+  width: 94%;
+  height: 45px;
+  /* border:1px solid white; */
+  margin: 8px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+}
+#box > div > .head > .name {
+  height: 100%;
+  width: auto;
+  background: #111;
+  /* border:1px solid yellow; */
+}
+#box > div > .head > .name > p {
+  background: #111;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0 0 5px;
+  text-align: center;
+}
+#box > div > .head > .price {
+  height: 70%;
+  width: 30%;
+  /* border:1px solid yellow; */
+  margin: 4px -20px 0 0;
+  background-color: rgba(179, 75, 37, 0.993);
+  border-radius: 5px;
+}
+#box > div > .head > .price > p {
+  background-color: rgba(179, 75, 37, 0.993);
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  margin: 7px 7px 0 0;
+}
+
+#box > div > .para > p {
+  background-color: #111;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px 15px;
+  line-height: 25px;
+}
+
+
+
+
+#twitter {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#twitter > div {
+
+  width: 23%;
+  margin: 45px 15px 10px 15px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+
+#twitter > .twit > .one {
+  /* border:1px solid green; */
+  height: 85px;
+  width: 99.6%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+#twitter > .twit  > .one > .square {
+  height: 100%;
+  width: 22%;
+  /* border:1px solid red; */
+  background: #fff;
+}
+#twitter > .twit > .one > .rec {
+  height: 100%;
+  width: 60%;
+  /* border:1px solid blue; */
+  background: #fff;
+}
+#twitter > .twit > .one > .rec > h5 {
+  color: black;
+  background: #fff;
+  font-size: 20px;
+  margin: 16px 0 0 15px;
+}
+#twitter > .twit  > .one > .rec > p {
+  color: #8a8a8a;
+  background: #fff;
+  margin-left: 10px;
+  line-height: 22px;
+  font-size: 18px;
+}
+#twitter > .twit > .one > .square > #pic {
+  /* border:1px solid black; */
+  height: 80%;
+  width: 80%;
+  margin: 6px 0 0 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+#twitter > .twit  > .one > .square > #pic > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+#twitter > .twit > .one > .square > #twit-logo {
+  height: 60%;
+  width: 60%;
+  margin-left: 25px;
+}
+#twitter > .twit > .two {
+  width: 99.3%;
+  height: auto;
+  /* border:2px solid teal; */
+  background: #fff;
+}
+#twitter > .twit   > .two > p {
+  font-size: 17px;
+  background: #fff;
+  color: #222;
+  text-align: left;
+  padding: 15px;
+  line-height: 22px;
+}
+#twitter > .twit > .two > p > span {
+  font-size: 17px;
+  background: #fff;
+  color: rgb(70, 161, 161);
+  text-align: left;
+}
+#twitter > .twit > .three {
+  width: 90%;
+  height: auto;
+  /* border:2px solid blue; */
+  background: #fff;
+  margin: 5px;
+}
+#twitter > .twit  > .three > p {
+  font-size: 18px;
+  background: #fff;
+  color: #8a8a8a;
+}
+#twitter > .twit > .three > hr {
+  margin-bottom: 10px;
+  background: #fff;
+  color: #8a8a8a;
+}
+
+
+#question {
+  height: 100px;
+  width: 100%;
+  /* border:2px solid lime */
+}
+#question > #p {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+#question > p {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+#question > p > span > a {
+  color: red;
+}
+
+/* form */
+
+#form {
+  width: 41%;
+  /* border:2px solid lime; */
+  margin: 30px auto;
+}
+#form > form {
+  background: #111;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 40%);
+  /* border:2px solid pink; */
+  width: 100%;
+  margin: 10px auto;
+  padding: 30px;
+}
+#form > form > h2 {
+  background: #111;
+  color: white;
+  text-align: left;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+#form > form > #input {
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+}
+#form > form > input {
+  background-color: white;
+  border-radius: 7px;
+  width: 97%;
+  padding: 7px 12px;
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 12px;
+  outline: none;
+  border: none;
+}
+#form .form-div {
+  display: flex;
+  background-color: #111;
+}
+#form .form-div > div {
+  background-color: #111;
+  width: 50%;
+}
+#form .form-div > div:first-child {
+  margin-right: 46px;
+}
+#form .form-div > div > p {
+  background-color: #111;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#form .form-div > div > input {
+  background-color: white;
+  border-radius: 7px;
+  width: 92%;
+  padding: 7px 12px;
+  font-size: 17px;
+  margin: 0px;
+  margin-bottom: 12px;
+  outline: none;
+  border: none;
+}
+
+#form > form > p {
+  background: #111;
+  color: white;
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+#form > form > p > span {
+  background: #111;
+  color: white;
+  margin: 25px 0 0 208px;
+  font-size: 19px;
+}
+#form > form > .g-recaptcha {
+  margin: 20px 0;
+  width: 46%;
+  height: 80px;
+}
+#form > form > #terms {
+  /* border:2px solid white; */
+  background-color: #2b2727;
+  color: rgba(255, 255, 255, 0.705);
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px 6px;
+}
+#form > form > #terms > p {
+  background-color: #2b2727;
+  font-size: 15px;
+}
+#form > form > #terms > p > a {
+  color: rgba(255, 0, 0, 0.61);
+  background-color: #2b2727;
+}
+#form > form > #button {
+  height: 70px;
+  width: 200px;
+  border-radius: 40px;
+  background-color: #c02d28;
+  border: none;
+  font-size: 22px;
+  color: white;
+}
+
+#box > .active {
+  background-color: #90221e;
+}
+#box > .active > div {
+  background-color: #90221e;
+}
+#box > .active > div > div.name {
+  background-color: #90221e;
+}
+#box > .active > div > div.name > p {
+  background-color: #90221e;
+}
+#box > .active > div > p {
+  background-color: #90221e;
+}
+
+#box > div.active:hover,
+#box > div.active:hover > .head,
+#box > div.active:hover > .head > .name,
+#box > div.active:hover > .head > .name > p,
+#box > div.active:hover > .para,
+#box > div.active:hover > .para > p {
+  background: #90221e;
+}
+#body {
+  margin-top: 400px;
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1320px) {
+  
+  #form {
+    width: 71%;
+    margin: 80px auto;
+  }
+  #box > div {
+    width: 22%;
+    margin: 0 8px;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1000px) {
+  #text1 > h1 {
+    font-size: 38px;
+  }
+  #text2 > h3 {
+    font-size: 28px;
+  }
+  #form {
+    width: 71%;
+    margin: 80px 0px;
+  }
+  #box > div {
+    width: 22%;
+    margin: 0 8px;
+  }
+  #twitter{
+    flex-direction: column;
+  }
+  #twitter>div{
+    width:50%;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 779px) {
+  #text1 > h1 {
+    font-size: 30px;
+  }
+  #text2 > h3 {
+    font-size: 22px;
+  }
+  #form {
+    width: 84%;
+   
+    margin-top: 450px;
+    margin-left:10px;
+  }
+  
+  #logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #text3 {
+    margin-top: 170px;
+  }
+  
+  #twitter{
+    flex-direction: column;
+  }
+  #twitter>div{
+    width:50%;
+  }
+  #box{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:10px;
+  }
+  #box>div{
+    width:80%;
+    box-sizing: border-box;
+    margin: 0px 10px;
+
+   }
+   
+}
+
+@media only screen and (min-width: 50px) and (max-width: 390px) {
+  #text1 > h1 {
+    font-size: 25px;
+    padding:10px;
+  }
+  #text2 > h3 {
+    font-size: 18px;
+    padding:10px;
+    margin-top: 110px;
+  }
+  #form {
+    width: 85%;
+   
+    margin-top: 370px;
+    margin-left:10px;
+  }
+  
+  #logo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #text3 {
+    margin-top: 410px;
+  }
+  
+  #twitter{
+    flex-direction: column;
+  }
+  #twitter>div{
+    width:80%;
+    margin-left:40px;
+  }
+  #box{
+    flex-direction: column;
+    margin-top: 350px;
+    gap: 20px;
+  
+  }
+  #box>div{
+    width:80%;
+    margin: auto;
+
+   }
+   #form>div>.g-recaptcha{
+     width:80px;
+   }
+   #question {
+    height: 200px;
+  }
+  #question #p {
+    font-size: 28px;
+  }
+  #question p {
+    font-size: 15px;
+  }
+}
