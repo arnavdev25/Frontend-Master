@@ -155,7 +155,9 @@ width: 170px;
 font-weight: bold;
 }
 
-
+#btnDiv{
+   margin-left: 20px;
+}
 
 #btn:hover {
    background-color: #8a8a8a;

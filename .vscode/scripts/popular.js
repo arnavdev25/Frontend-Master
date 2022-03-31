@@ -113,14 +113,14 @@ main.innerHTML = null;
         img1.setAttribute("id","img1")
 
         let title = document.createElement("h1")
-        title.innerText=el.name
+        title.innerText=el.title
 
         let titleDiv =document.createElement('div')
         titleDiv.id = "titleDiv"
         titleDiv.append(title)
 
         let nam = document.createElement("p");
-        nam.innerText=el.title
+        nam.innerText=el.name
         nam.id = "p"
         
         let nameDiv = document.createElement("div")
