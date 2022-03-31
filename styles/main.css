@@ -83,7 +83,9 @@ body {
   width: 90px;
   margin-top: 10px;
   margin-left: 10px;
+  object-fit: contain;
   opacity: 0.5;
+  transition: all 0.5s ease;
 }
 #icons img:hover {
   /* border: 1px solid #eff; */
@@ -125,6 +127,10 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
+#join div div a {
+  text-decoration: none;
+  cursor: pointer;
+}
 #join div {
   position: relative;
   z-index: 1;
@@ -138,6 +144,7 @@ body {
 }
 #join button:hover {
   background-color: chocolate;
+  cursor: pointer;
 }
 #bootcamp {
   margin-top: 700px;

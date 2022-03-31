@@ -1,4 +1,4 @@
-import { navbar, hamburgerClick } from "../components/navbar.js";
+import navbar from "../components/navbar.js";
 import { slider } from "../components/slider.js";
 import { appendTwitterData } from "./slides.js";
 import footer from "../components/footer.js";
@@ -7,7 +7,11 @@ document.querySelector(".header").innerHTML = navbar();
 document.querySelector("#footer").innerHTML = footer();
 
 // Click Event on Hamburger Icon
-hamburgerClick();
+const hamburger = document.querySelector(".menu");
+const navMenu = document.querySelector(".mobile");
+hamburger.addEventListener("click", function () {
+  navMenu.classList.toggle("active");
+});
 
 // Slider Container
 let slider_con = document.querySelector(".slider-container");

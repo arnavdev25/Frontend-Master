@@ -15,41 +15,19 @@ hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
 
-let data = [
-  {
-    name: "Aniket",
-    email: "aniket@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Miles",
-    email: "aniket0123@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Haresh",
-    email: "haresh2910@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Krunal",
-    email: "krunal3103@gmail.com",
-    password: "test",
-  },
-];
-
 let login_form = document.querySelector("#login-form");
 
 const loginUser = () => {
   event.preventDefault();
-  let regesiterData = JSON.parse(localStorage.getItem("registerData")) || [];
+  let login_data = JSON.parse(localStorage.getItem("login_data")) || [];
+
   let email = document.querySelector("#email").value;
   let password = document.querySelector("#password").value;
   //   if
   let success = false;
   let logged_user = null;
-  for (let i = 0; i < data.length; i++) {
-    let el = data[i];
+  for (let i = 0; i < login_data.length; i++) {
+    let el = login_data[i];
     if (el.email === email && el.password == password) {
       success = true;
       logged_user = el;

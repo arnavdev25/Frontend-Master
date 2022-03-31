@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: Open Sans, sans-serif;
+}
+
 .header {
   width: 100%;
   background: linear-gradient(90deg, #c02d28, #e66225);
@@ -49,6 +57,17 @@
 }
 .header-wrap .right ul li:last-child:hover {
   background: #d43530;
+}
+.header-wrap .right ul li.logout:last-child {
+  background-color: transparent;
+  margin-left: 0;
+}
+.header-wrap .right ul li.logout:last-child a#logout {
+  color: #aaaaaa;
+}
+.header-wrap .right ul li.logout:last-child:hover a#logout {
+  color: #fff;
+  background-color: transparent;
 }
 .header-wrap .right ul li {
   list-style: none;
