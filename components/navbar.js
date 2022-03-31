@@ -16,7 +16,7 @@ function navbar() {
       <li><a href="learn.html">Learn</a></li>
       <li><a href="#">Pricing</a></li>
       <li><a href="Login.html">Login</a></li>
-      <li><a href="#">Join Now</a></li>
+      <li><a href="joinnow.html">Join Now</a></li>
     </ul>
   </div>
   <div class="menu">

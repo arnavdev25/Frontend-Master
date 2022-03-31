@@ -73,6 +73,17 @@ var icon1arr = [
        time:"4 hours, 6 minutes "
    }
 ]
+var progress1 =[
+  {
+    class: "js",
+color: "#c94f17",
+desc: "Write Professional, Modern JavaScript",
+icon: "",
+img: "https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg",
+title: "JavaScript"
+
+  }
+]
 // background: #181818;
 let main=document.getElementById("main")
 import {display} from "../components/display.js"
