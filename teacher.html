@@ -90,6 +90,7 @@
       margin-left: 20px;
       }
         }
+        
     </style>
 </head>
 <body>
@@ -98,6 +99,7 @@
     <div id="container">
      
     </div>
+    <section></section>
     <div id="footer"></div>
 </body>
 </html>
@@ -109,17 +111,11 @@
 
 document.querySelector("#footer").innerHTML=footer()
 
+const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
 </script>
 <script src="https://kit.fontawesome.com/2ab2a134b6.js" crossorigin="anonymous"></script>
 <script src="./scripts/teacher-data.js"></script>
-<script>
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-    
-    hamburger.addEventListener("click", mobileMenu);
-    
-    function mobileMenu() {
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-    }
-    </script>

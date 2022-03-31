@@ -12,7 +12,7 @@ body {
 }
 #banner {
   width: 100%;
-  /* margin-top: 100px; */
+
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -25,7 +25,7 @@ body {
   position: absolute;
   height: 100%;
   object-fit: cover;
-  margin-top: 80px;
+  margin-top: 85px;
   top: 0;
   left: 0;
   pointer-events: none;
@@ -42,7 +42,7 @@ body {
 }
 #banner #contents h2 {
   font-size: 34px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 15px;
 }
 #banner button,
@@ -195,11 +195,6 @@ body {
     z-index: 2;
     object-fit: cover;
     height: 100vh;
-
-    background-image: url("	https://static.frontendmasters.com/assets/fm/js/static/bg1.8d7f86e8bd.jpg");
-  }
-  #banner video {
-    display: none;
   }
   #banner #contents h1 {
     font-size: 30px;
@@ -222,4 +217,15 @@ body {
   #join div {
     margin: 20px;
   }
+}
+#clip1 {
+  background-color: #581010;
+  height: 150px;
+  width: 100%;
+  /* clip-path: polygon(100% 0, 0 0, 98% 56%);
+         */
+  /* clip-path: polygon(50% 0%, 100% 0, 100% 100%, 99% 20%, 0 1%); */
+  clip-path: polygon(100% 0, 0 28%, 100% 26%);
+  margin-top: -30px;
+  margin-bottom: -120px;
 }
