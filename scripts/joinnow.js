@@ -36,6 +36,7 @@ let g=document.getElementById("errcheck")
 function myFormSubmit(event){
       event.preventDefault(); 
 
+
   if
     (
       (document.getElementById("email").value=="")||
@@ -83,6 +84,7 @@ function myFormSubmit(event){
        g.style.fontSize="16px";
 
     }
+
 
     else{
 

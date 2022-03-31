@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #222222;
+    color: #e6e6e6;
+    font-family: Open Sans,sans-serif;
+}
+#clip{
+    background-color: #DF5826;
+    clip-path: polygon(0 0, 100% 0, 100% 6%, 0 2%);
+   
+    height:370px;
+    width:100%;
+    /* border:5px solid black; */
+}
+#head{
+    height:50px;
+    max-width:75%;
+    border:2px solid blue;
+    margin: auto;
+    margin-top: -300px ;
+}
+#cointainer{
+    max-width:75%;
+    margin:auto;
+    border: 2px solid green;
+    margin-top: 20px;
+    display:flex;
+    /* flex-wrap: wrap; */
+}
+#cointainer>div{
+    border:2px solid teal;
+  
+}
+#first_parent{
+    width:50%;
+    margin:0 25px 0 0;
+}
+#second_child{
+    width:50%;
+    margin: 0 0 0 25px;
+}
+/*.................first_parent.....................*/
+/* ................#continue_watching............... */
+
+#continue_watching{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+   padding:15px 0 15px 0;
+}
+#continue_watching p{
+    font-size: 25px;
+   
+}
+#continue_watching p span{
+    color:white;
+}
+
+/* ................#welcome............... */
+
+#welcome{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+   margin:15px 0 15px 0;
+   background-color: black;
+}
+#welcome>div{
+    width:100%;
+    border:1px solid pink;
+    margin:5px 0 5px 0;
+    
+}
+
+/* ................#welcome_one............... */
+
+#welcome #welcome_one>h6{
+    font-size: 20px;
+    padding-left:15px;
+    padding-top: 10px;
+    line-height: 28px;
+}
+#welcome #welcome_one>p{
+    padding-left:15px;
+    line-height: 28px;
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+}
+#welcome #welcome_one>#p{
+  color:rgb(158, 147, 147);
+  padding-left:15px;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+
+/* ................#welcome_two............... */
+
+#welcome #welcome_two{
+      display:flex;
+      height:80px;
+    
+}
+#welcome #welcome_two> .image{
+    width:15%;
+    
+    border:3px solid red;
+}
+#welcome #welcome_two> .text{
+    width:80%;
+    border:3px solid red;
+    margin-left: 15px;
+}
+#welcome #welcome_two> .image>img{
+    height:90%;
+    width:90%;
+    margin:4px;
+}
+
+/* ................#welcome_three............... */
+
+#welcome #welcome_three{
+    display:flex;
+    height:80px;
+  
+}
+#welcome #welcome_three> .image{
+  width:15%;
+  
+  border:3px solid red;
+}
+#welcome #welcome_three> .text{
+  width:80%;
+  border:3px solid red;
+  margin-left: 15px;
+}
+#welcome #welcome_three> .image>img{
+  height:90%;
+  width:90%;
+  margin:4px;
+}
+
+/* ................#welcome_three............... */
+
+#welcome #welcome_four{
+    display:flex;
+    height:80px;
+  
+}
+#welcome #welcome_four> .image{
+  width:15%;
+  
+  border:3px solid red;
+}
+#welcome #welcome_four> .text{
+  width:80%;
+  border:3px solid red;
+  margin-left: 15px;
+}
+#welcome #welcome_four> .image>img{
+  height:90%;
+  width:90%;
+  margin:4px;
+}
+
+/* ................#welcome_five............... */
+
+#welcome_five{
+    padding:30px 0 20px 0;
+}
+#welcome_five p{
+    margin-left: 15px;
+}
+
+/* ................#learning............... */
+
+#learning{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+    padding:15px 0 15px 0;
+}
+#learning p{
+    font-size: 25px;
+   
+}
+#learning p span{
+    color:red;
+    font-size: 18px;
+    margin-left: 120px;
+}
+
+
+#beginner{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+    
+}
+#beginner #option{
+    width:100%;
+    border: 2px solid blue;
+    height:50px;
+    padding:25px 0 35px 0;
+   
+}
+#beginner #option #select{
+    width:80%;
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 2px solid rgb(0, 140, 255);
+}
+#course{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+    height:50px;
+   margin:5px 0 5px 0;
+}
+#fullstack{
+    max-width: 100%;
+    border:1px solid yellowgreen;
+    height:50px;
+   margin:5px 0 5px 0;
+}
