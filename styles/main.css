@@ -91,11 +91,13 @@ body{
    
 }
 #icons img:hover {
-   border: 1px solid #eff;
-   border-radius: 20px;
-   padding: 10px;
+   /* border: 1px solid #eff; */
+   /* border-radius: 20px; */
+   /* padding: 10px; */
    box-sizing: border-box;
    opacity: 1;
+   transform: scale(1.2);
+  /* box-sizing: border-box; */
    
 }
 #slidebar {
