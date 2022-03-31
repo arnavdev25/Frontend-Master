@@ -6,7 +6,10 @@ var icon1arr = [
         title:"Bianca Gandilfo",
         com:"Thumbtack",
         des:"Learn higher-order functions, closures, scope, master key functional methods like map, reduce and filter and promises and ES6+ asynchronous JavaScript.",
-        time:"8 hours, 11 minutes "
+        time:"8 hours, 11 minutes ",
+        head1:"Editor's Notes",
+        de:"A practical introduction to JavaScript and an overview of the language, Bianca covers what you need to know to be competent at writing JavaScript."
+      
    
     },
     {
@@ -73,19 +76,43 @@ var icon1arr = [
        time:"4 hours, 6 minutes "
    }
 ]
-var progress1 =[
-  {
-    class: "js",
-color: "#c94f17",
-desc: "Write Professional, Modern JavaScript",
-icon: "",
-img: "https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg",
-title: "JavaScript"
 
-  }
-]
 // background: #181818;
 let main=document.getElementById("main")
 import {display} from "../components/display.js"
 // console.log(navbar)
 display(icon1arr,main)
+
+import {  appedData, addEventToBox } from "../components/path.js";
+import navbar  from "../components/navbar.js";
+import footer from "../components/footer.js";
+
+// Header & Footer
+let header = document.querySelector(".header");
+let footer_container = document.querySelector("#footer");
+header.innerHTML = navbar();
+footer_container.innerHTML = footer();
+document.querySelector("#footer").innerHTML=footer()
+
+const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+
+var progress1 =[
+  {
+    class: "js",
+color: "#c94f17",
+desc: "From JavaScript foundations, all the way to Hardcore Functional JavaScript, find out how far you can go with your JavaScript abilities!",
+icon: "",
+img: " https://www.bing.com/th?id=OIP.fxMFAWgcs9ASnyZoIMeLJAHaHa&w=174&h=170&c=8&rs=1&qlt=90&o=6&dpr=1.41&pid=3.1&rm=2",
+title: "Write Professional, Modern JavaScript"
+
+  }
+]
+let elective_bottom = document.querySelector(".elective-container ");
+
+appedData(progress1, elective_bottom);
+
+addEventToBox();

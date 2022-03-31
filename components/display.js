@@ -1,6 +1,9 @@
 
 function display(data,main){
     data.map(function(el){
+        let plus1 = document.createElement("div")
+        plus1.setAttribute("class","plus1")
+        plus1.innerText="+"
         let div = document.createElement("div");
         div.setAttribute("id","div")
         let div1 = document.createElement("div");
@@ -44,6 +47,14 @@ function display(data,main){
         btn.setAttribute("id","btn")
         btn1.setAttribute("id","btn1")
         let div6 = document.createElement("div")
+        let box = document.createElement("div")
+        let h6 = document.createElement("h6")
+        h6.innerText=el.head1
+        let box_p = document.createElement("p")
+      
+        box_p.innerText=el.de
+        box.setAttribute("id","box")
+        box.append(h6,box_p)
         div6.append(btn,btn1)
         div6.style.display="flex"
         div6.setAttribute("id","div6")
@@ -54,10 +65,13 @@ function display(data,main){
            let displayArr=[];
            displayArr.push(el)
        })
+
        btn1.addEventListener("click",function(){
            window.location.href="joinnow.html"
        })
-        main.append(div)
+       document.getElementById("line").append(plus1)
+        main.append(box,div)
+       
     })
 }
 
