@@ -52,12 +52,4 @@ function navbar() {
 </div>`;
 }
 
-const hamburgerClick = () => {
-  const hamburger = document.querySelector(".menu");
-  const navMenu = document.querySelector(".mobile");
-  hamburger.addEventListener("click", function () {
-    navMenu.classList.toggle("active");
-  });
-};
-
-export { navbar, hamburgerClick };
+export navbar ;
