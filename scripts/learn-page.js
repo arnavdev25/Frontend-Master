@@ -1,8 +1,17 @@
-import { pathContainer, appedData } from "../components/path.js";
-import navbar from "../components/navbar.js";
-let header = document.querySelector(".header");
-header.innerHTML = navbar();
+import { pathContainer, appedData, addEventToBox } from "../components/path.js";
+import { navbar, hamburgerClick } from "../components/navbar.js";
+import footer from "../components/footer.js";
 
+// Header & Footer
+let header = document.querySelector(".header");
+let footer_container = document.querySelector("#footer");
+header.innerHTML = navbar();
+footer_container.innerHTML = footer();
+
+// Click Event on Hamburger Icon
+hamburgerClick();
+
+// Path-Container Top Component
 let map_svg = localStorage.getItem("map_svg");
 let topic_icon = localStorage.getItem("topic_icon");
 let path_conatiner = document.querySelector(".path-container");
@@ -18,42 +27,14 @@ elective_conatiner.innerHTML = pathContainer(
   "Focus on a specific area in web development."
 );
 
+// Path-Container bottom Component
 let learn_data = JSON.parse(localStorage.getItem("learn_data"));
 let path_bottom = document.querySelector(".path-container > .p-bottom");
-
-appedData(learn_data, path_bottom);
 let elective_bottom = document.querySelector(".elective-container > .p-bottom");
 let elective_data = JSON.parse(localStorage.getItem("elective_data"));
+
+appedData(learn_data, path_bottom);
 appedData(elective_data, elective_bottom);
 
-// console.log(elective_bottom);
-
-const updateProgress = (item) => {
-  let counter = 0;
-  let numb = item.querySelector(".numb>p");
-  let id = setInterval(() => {
-    if (counter == 100) {
-      let right_div = item.querySelector(".bar.right");
-      right_div.classList.add("reverse");
-      let left_div = item.querySelector(".bar.left");
-      left_div.classList.add("reverse-left");
-      let innerId = setInterval(() => {
-        if (counter == 0) {
-          clearInterval(innerId);
-        } else {
-          counter -= 1;
-          numb.textContent = counter + "%";
-        }
-      }, 20);
-      clearInterval(id);
-    } else {
-      counter += 1;
-      numb.textContent = counter + "%";
-    }
-  }, 20);
-};
-
-const p_box = document.querySelectorAll(".p-box");
-p_box.forEach((el) => {
-  updateProgress(el);
-});
+// Add Event on every p_box
+addEventToBox();

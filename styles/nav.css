@@ -6,10 +6,13 @@
   z-index: 99;
   position: relative;
 }
-
-.header-wrap {
+.wrap {
   background: rgba(0, 0, 0, 0.7);
+}
+.header-wrap {
+  max-width: 1180px;
   padding: 14px 112px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -79,6 +82,10 @@
 @media all and (max-width: 768px) and (min-width: 381px) {
   .header-wrap {
     padding: 14px;
+    max-width: 592px;
+  }
+  .header-wrap .right ul li a {
+    margin: 0 6px;
   }
 }
 

@@ -1,5 +1,6 @@
 function navbar() {
-  return `<div class="header-wrap">
+  return `<div class="wrap">
+  <div class="header-wrap">
   <div class="left">
     <div class="logo">
       <a href="index.html">
@@ -47,7 +48,16 @@ function navbar() {
     </linearGradient>
   </defs>
   <polygon points="0,2 0,0 100,0 100,10" fill="url(#linear)"></polygon>
-</svg>`;
+</svg>
+</div>`;
 }
 
-export default navbar;
+const hamburgerClick = () => {
+  const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+};
+
+export { navbar, hamburgerClick };

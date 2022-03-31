@@ -1,5 +1,13 @@
+import { navbar, hamburgerClick } from "../components/navbar.js";
 import { slider } from "../components/slider.js";
 import { appendTwitterData } from "./slides.js";
+import footer from "../components/footer.js";
+
+document.querySelector(".header").innerHTML = navbar();
+document.querySelector("#footer").innerHTML = footer();
+
+// Click Event on Hamburger Icon
+hamburgerClick();
 
 // Slider Container
 let slider_con = document.querySelector(".slider-container");
@@ -18,6 +26,7 @@ if (screen_size >= 1030) {
   appendTwitterData(small_data);
 }
 
+// Slider JS
 let slides = [...document.querySelectorAll(".slide")];
 let i = 0;
 
@@ -62,10 +71,11 @@ let next = document.getElementById("next");
 prev.addEventListener("click", prevItem);
 next.addEventListener("click", nextItem);
 
-let resizeTimeout;
-window.addEventListener("resize", function (event) {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(function () {
-    window.location.reload();
-  }, 1500);
-});
+// On window resizing Event
+// let resizeTimeout;
+// window.addEventListener("resize", function (event) {
+//   clearTimeout(resizeTimeout);
+//   resizeTimeout = setTimeout(function () {
+//     window.location.reload();
+//   }, 1500);
+// });

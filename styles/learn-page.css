@@ -10,6 +10,9 @@
   padding-top: 40px;
   background-color: #222222;
 }
+.elective-container {
+  padding-bottom: 40px;
+}
 
 .p-top,
 .p-bottom {
@@ -39,6 +42,7 @@
   margin-top: 20px;
   border-top: 1px solid #ffffff69;
   padding-top: 20px;
+  justify-content: center;
 }
 .p-bottom .p-box {
   max-width: 303px;
@@ -130,36 +134,29 @@
   -webkit-border-radius: 100%;
   clip: rect(0px, 100px, 200px, 0px);
 }
-.circle .bar .progress,
-.dot span {
+.circle .bar .progress {
   background: #4158d0;
 }
-.circle .bar .progress,
-.dot span.orange {
+.circle .bar .progress {
   background: #c63528;
 }
-.circle .bar .progress,
-.dot span.js {
+.circle .bar .progress.js {
   background: #b3911c;
 }
-.circle .bar .progress,
-.dot span.css {
+.circle .bar .progress.css {
   background: #278cc7;
 }
-.circle .bar .progress,
-.dot span.node {
+.circle .bar .progress.node {
   background: #00873a;
 }
-.circle .bar .progress,
-.dot span.react {
+.circle .bar .progress.react {
   background: #008697;
 }
-.circle .bar .progress,
-.dot span.vue {
+.circle .bar .progress.vue {
   background: #00bb83;
 }
-.circle .bar .progress,
-.dot span.angular {
+
+.circle .bar .progress.angular {
   background: #ff002f;
 }
 .circle .left .progress {
