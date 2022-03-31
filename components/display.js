@@ -4,6 +4,8 @@ function display(data,main){
         let plus1 = document.createElement("div")
         plus1.setAttribute("class","plus1")
         plus1.innerText="+"
+        let line = document.createElement("div");
+        line.setAttribute("id","line")
         let div = document.createElement("div");
         div.setAttribute("id","div")
         let div1 = document.createElement("div");
@@ -69,10 +71,18 @@ function display(data,main){
        btn1.addEventListener("click",function(){
            window.location.href="joinnow.html"
        })
-       document.getElementById("line").append(plus1)
-        main.append(box,div)
-       
+    //    document.getElementById("line").append(plus1)
+        main.append(line,plus1,box,div)
+
+        if(box.style.display=="none"){
+            div.style.marginTop="-80px"
+            
+        }
+        else{
+            div.style.marginTop="0px"
+        }
     })
+   
 }
 
 export  {display};
