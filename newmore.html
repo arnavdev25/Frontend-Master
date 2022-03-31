@@ -1,0 +1,535 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/8003204e9e.js" crossorigin="anonymous"></script>
+    
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <title>Document</title>
+    </head>
+    
+    <style>
+    
+    body{
+        background-color: #222;
+    }
+    
+        #main img{
+            height:573px;
+            width:100%;
+            position: relative;
+            
+            
+    }
+          #logo img{
+              position: absolute;
+               margin-top: -460px;
+              height:280px;
+              width:280px;
+              padding-left: 220px;
+          }
+         #heading {
+              position: absolute;
+              margin-top: -460px;
+              color: #e6e6e6;
+              padding-left: 550px;
+              font-size: 16px;
+              font-family: Open, Helvetica, sans-serif;
+              line-height: 40px;
+          }
+          #para{
+              line-height: 25px;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+          button{
+              height:60px;
+              width:220px;
+              border-radius: 30px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 18px;
+              background-color: #c02d28;
+              color: white;
+              border: none;
+          }
+         i{
+             font-size:50px;
+             margin-left: 10px;
+             color:gray;
+              padding: 8px;
+              box-sizing: border-box;
+              background-color: #e6e6e6;
+              border-radius: 50%;
+              margin-top: 10px;
+        
+         }
+         #main2{
+             height:3000px;
+             width:100%;
+             /* border:2px solid blue; */
+         }
+           #content{
+               height:300px;
+               width:490px;
+               /* border:1px solid yellow; */
+               margin-left: 165px;
+               margin-top: 70px;
+               line-height: 35px;
+               font-size: 18px;
+               font-family: Arial, Helvetica, sans-serif;
+               color:#e6e6e6;
+           }
+    
+               #content2{
+                   line-height: 25px;
+                   color: #e6e6e6;
+               }
+               hr{
+                   
+                   width:65%;
+                   color:1px solid grey;
+               }
+               #swap img{
+                   height:300px;
+                   width:45%;
+                   /* border: 2px solid green; */
+                   margin-left: 100px;
+                   margin-top: 20px;
+               }
+               #para2{
+                   height:200px;
+                   width:35%;
+                   /* border:1px solid cyan; */
+                   margin-left: 750px;
+                   margin-top: -250px;
+                   color: #e6e6e6;
+                   line-height: 25px;
+                   font-size: 19px;
+                   
+               }
+    
+               #hr2 hr{
+                   width:65%;
+                   margin-top: 90px;
+               }
+               #bootcamp{
+                   height:60px;
+                   width:25%;
+                   /* border:1px solid red; */
+                   margin-left: 520px;
+                   font-size: 30px;
+                   color: #e6e6e6;
+                   font-family: Arial, Helvetica, sans-serif;
+                   margin-top: 30px;
+               }
+    
+    
+               #que{
+                   height: 800px;
+                   width:60%;
+                   /* border: 2px solid cyan; */
+                   margin-left: 20%;
+                   line-height: 60px;
+                   font-size: 20px;
+                   font-family: Arial, Helvetica, sans-serif;
+               }
+               #abc{
+                   display: grid;
+                   grid-template-columns: 400px 200px;
+                   line-height: 30px;
+                   margin-left: 390px;
+                   padding-left: 10px;
+                   width: 540px;
+                   margin-top: 0px;
+                   border-bottom: 1px solid grey;
+                   /* border-right: 1px solid blue; */
+               }
+               #anchor>a{
+                 display: block;
+                  color: #dd625e;
+                   font-size: 21px;
+                   font-family: Arial, Helvetica, sans-serif;
+               }
+               #anchor{
+                   padding-top: 10px;
+                   line-height: 60px;
+               }
+               #hour{
+                   font-size: 16px;
+                   color:#e6e6e6;
+                   line-height: 44px;
+                   /* border:1px solid green */
+               }
+              #total{
+                margin-top: 15px;
+                   margin-left: 400px;
+                   color:white;
+                   font-size: 20px;
+                   font-family: Arial, Helvetica, sans-serif;
+               }
+               #to{
+                margin-top: -25px;
+                margin-left: 800px;
+                color: #e6e6e6;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #content3{
+               height:350px;
+               width:480px;
+               /* border:1px solid yellow; */
+               margin-left: 145px;
+               margin-top: 170px;
+               
+               line-height: 45px;
+               font-size: 18px;
+               font-family: Arial, Helvetica, sans-serif;
+               color:#e6e6e6;
+           }
+           #tag{
+               line-height: 25px;
+           }
+    
+    
+    
+           form {
+      width: 40%;
+      /* border:2px solid lime; */
+      margin: 30px auto;
+      
+    }
+    #form > form {
+      background: #3e3e3e;
+    
+       /* border:2px solid pink;  */
+      width: 35%;
+      height:670px;
+      margin: 10px auto;
+      padding: 60px;
+      padding-top: 15px;
+      margin-left: 670px;
+      margin-top: -450px;
+      
+    }
+    #form > form > h2 {
+      background:#3e3e3e;
+      color: #e6e6e6;
+      text-align: left;
+      margin-bottom: 12px;
+      font-size: 30px;
+    }
+    #form > form > #input {
+      background-color: #e6e6e6;
+      border-radius: 7px;
+      border: none;
+    }
+    #form > form > input {
+      background-color: #e6e6e6;
+      border-radius: 7px;
+      width: 97%;
+      padding: 7px 12px;
+      font-size: 17px;
+      margin: 0px;
+      margin-bottom: 12px;
+      outline: none;
+      border: none;
+    }
+    #form .form-div {
+      display: flex;
+      background-color: #3e3e3e;
+    }
+    #form .form-div > div {
+      background-color: #3e3e3e;
+      width: 50%;
+    }
+    #form .form-div > div:first-child {
+      margin-right: 46px;
+    }
+    #form .form-div > div > p {
+      background-color: #3e3e3e;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+    #form .form-div > div > input {
+      background-color: #e6e6e6;
+      border-radius: 7px;
+      width: 92%;
+      padding: 7px 12px;
+      font-size: 17px;
+      margin: 0px;
+      margin-bottom: 12px;
+      outline: none;
+      border: none;
+    }
+    
+    #form > form > p {
+      background: #3e3e3e;
+      color: #e6e6e6;
+      margin-bottom: 12px;
+      font-size: 19px;
+    }
+    #form > form > p > span {
+      background: #3e3e3e;
+      color: #e6e6e6;
+      margin: 25px 0 0 208px;
+      font-size: 19px;
+    }
+    #form > form > .g-recaptcha {
+      margin: 20px 0;
+      width: 46%;
+      height: 80px;
+    }
+    #form > form > #terms {
+      /* border:2px solid white; */
+      /* background-color: #2b2727; */
+      color: rgba(255, 255, 255, 0.705);
+      width: 100%;
+      margin: 20px 0;
+      padding: 10px 6px;
+    }
+    #form > form > #terms > p {
+      /* background-color: #2b2727; */
+      font-size: 15px;
+    }
+    #form > form > #terms > p > a {
+      color: rgba(255, 0, 0, 0.61);
+      /* background-color: #2b2727; */
+    }
+    #form > form > #button {
+      height: 70px;
+      width: 200px;
+      border-radius: 40px;
+      background-color: #c02d28;
+      border: none;
+      font-size: 22px;
+      color: white;
+    }
+    
+    
+    
+    #la{
+        line-height: 40px;
+    }
+    
+    #ref{
+        color: #c02d28;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #bottom{
+        margin-top: 100px;
+    
+        
+    }
+    #faQ{
+        height:40px;
+        width:100px;
+        /* border: 1px solid cyan; */
+        margin-top: 40px;
+        margin-left: 600px;
+        padding-top: 20px;
+        color: white;
+        padding-left: 10px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #que{
+        height:350px;
+        width:800px;
+        /* border: 1px solid cyan; */
+        margin-top: 20px;
+        margin-left: 270px;
+        padding-top: 20px;
+        color: white;
+        padding-left: 10px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #ch1{
+        height:40px;
+        width:90%;
+         /* border: 1px solid cyan;  */
+        color: white;
+    background-color:#891814;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 15px;
+        align-content: center;
+        margin-left: 40px;
+        padding-left: 20px;
+    }
+    #ch2{
+           width: 91%;
+            font-size: 15px;
+            margin-left: 40px;
+            margin-right: 30px;
+            line-height: 28px;
+             /* border: 1px solid red;  */
+            background-color: white;
+            color: #3e3e3e;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 10px;
+    
+    }
+    .ch3{
+        height:45px;
+        width:91%;
+        border: 1px solid gray;
+        font-size: 15px;
+        background-color: #d3d3d3;
+        color: rgb(12, 12, 12);
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 40px;
+        padding-left: 9px;
+    }
+    #frame{
+        height:320px;
+        width:560px;
+        /* border:1px solid green; */
+        margin-left: 520px;
+        margin-top: -280px;
+    
+    }
+    </style>
+    
+    <body>
+        <div id="main"><img src="https://static.frontendmasters.com/assets/fm/js/static/header_BG.f12eb70699.jpg" alt="">
+        <div id="logo"><img src="https://static.frontendmasters.com/assets/fm/med/bootcamp/BootcampLogo.png" alt=""> </div>
+        <div id="heading"><h1>Join the Frontend Masters Web<br> Development Bootcamp...Free!</h1>
+        <div id="para"><p>Get access to everything you need to get started developing websites.<br>
+            Learn HTML, CSS and JavaScript through project-based learning.</p></div>   
+            <button>Join the Bootcamp ></button>
+            
+            <i class="fa-brands fa-twitter"></i>
+    
+        </div>
+        
+        </div>
+    
+        <div id="main2">
+            <div id="content"><h2>What is the Bootcamp, and how<br> does it work?</h2>
+            <div id="content2"><p>The Frontend Masters Bootcamp is a complete crash<br> course, and everything you need to get up and running with <br>HTML, CSS and JavaScript. By completing the coursework<br> contained in the Bootcamp, along with practice, you will be well on your way into the world of web development!</p> 
+            </div>
+            <div id="frame"><img src="Screenshot (675).png" alt=""></div>
+      </div>
+         <hr>
+    
+         <div id="swap"><img src="https://static.frontendmasters.com/assets/fm/med/welcome/welcomePitch1.jpg" alt="">
+        <div id="para2"><h1>Why Frontend Masters? </h1>
+            All of our courses are taught by industry leading experts, <br>people actively shaping the craft of web development. In<br> addition, our courses are regularly updated to keep pace<br> with the latest evolutions to ensure you're learning industry<br> best practices and the latest techniques.
+        </div>
+        </div>
+        <div id="hr2">
+        <hr>
+        </div>
+        <div id="bootcamp">Bootcamp Curriculum</div>
+        <div id="abc">
+            <div id="anchor">
+                <a  href="https://frontendmasters.com/bootcamp/introduction-html/">Introduction to HTML</a>
+                <a href="https://frontendmasters.com/bootcamp/introduction-css/">Introduction to CSS</a>
+                <a href="https://frontendmasters.com/bootcamp/html-forms/">HTML Forms</a>
+                
+                <a href="https://frontendmasters.com/bootcamp/embeds-github-pages/">Website Embeds & GitHub Pages</a>
+                <a href="https://frontendmasters.com/bootcamp/Calculator Project: HTML & CSS/">Calculator Project: HTML & CSS</a>
+                <a href="https://frontendmasters.com/bootcamp/introduction-javascript/">Introduction to JavaScript</a>
+                <a href="https://frontendmasters.com/bootcamp/calculator-javascript/">Calculator Project: JavaScript</a>
+                <a href="https://frontendmasters.com/bootcamp/javascript-in-websites/">Using JavaScript in Websites</a>
+                <a href="https://frontendmasters.com/bootcamp/web-game-project/">Build a Game Project: Feed-A-Star-Mole</a>
+    
+            </div>
+            <div id="hour"><p>1 hours, 47 minutes </p>
+                  <p>4 hours, 11 minutes</p>
+                  <p>2 hours, 4 minutes</p>
+                  <p>0 hours, 54 minutes</p>
+                  <p>0 hours, 48 minutes</p>
+                  <p>5 hours, 23 minutes</p>
+                  <p>1 hours, 13 minutes</p>
+                  <p>3 hours, 2 minutes</p>
+                  <p>2 hours, 14 minutes</p>
+            
+            </div>
+       
+        </div>
+        
+        <div id="total">Total Hours to Learn HTML, CSS & JS</div>
+          
+         <div id="to">21 hours, 6 minutes</div>
+          <div id="content3"><h1>Ready to join the<br> Bootcamp?</h1>
+        <p id="tag">Create a free account, and get access to everything you<br> need to learn HTML, CSS and JavaScript!<br>
+    
+            If you already have a Frontend Masters' account,<br> please login and return to this page. Otherwise sign-up for a<br> free account now.</p>
+        </div>
+        
+        <div id="form">
+            <form >
+               
+               <p>Email (you'll need to confirm this email address)</p>
+               <input id="email" type="text">
+               <div class="form-div">
+                   <div>
+                       <p>First Name</p>
+                       <input id="first_name" type="text">  
+                    </div>
+                    <div>
+                        <p>Last Name</p>
+                        <input id="last_name" type="text">
+                    </div>
+               </div>
+               <p>Password</p>
+               <input  id="password"type="text">
+               <p>Password Again</p>
+               <input id="password_again"type="text">
+            
+            
+               
+                
+                <div class="g-recaptcha"
+                 data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+    
+               <div id="terms">
+                <button>Start Learning For Free</button>
+    
+               </div>
+               <p id="la">
+                If you're having trouble signing up, please contact <a  id="ref"   href=''>support@frontendmasters.com</a></p>
+            </form>
+    </div>
+    <hr id="bottom">
+    <div id="faQ">FAQ</div>
+    <div id="que">
+        <div id="ch1">Q:This is completely free? What's the catch?</div>
+        <div id="ch2">A: This is completely free - and we believe by educating more people about web development, we get a better web - with more voices empowered to share their ideas, apps and perspectives. So the catch is we hope you build something awesome. Oh, and if you'd like to become a customer in the future to take more advanced courses and take your career to the next level, that would be cool too. 😀</div>
+         <div class ="ch3">Q:How long will will this Bootcamp be available?</div>
+         <div class="ch3">Q:What will this Bootcamp teach me?</div>
+         <div class="ch3"> Q:Where can I go after completing the Bootcamp?</div>
+    
+    </div>
+    </div>
+    </body>
+    </html>
+    <!-- 
+    Bootcamp Curriculum
+    Introduction to HTML
+    1 hours, 47 minutes
+    Introduction to CSS
+    4 hours, 11 minutes
+    HTML Forms
+    2 hours, 4 minutes
+    Website Embeds & GitHub Pages
+    0 hours, 54 minutes
+    Calculator Project: HTML & CSS
+    0 hours, 48 minutes
+    Introduction to JavaScript
+    5 hours, 23 minutes
+    Calculator Project: JavaScript
+    1 hours, 13 minutes
+    Using JavaScript in Websites
+    3 hours, 2 minutes
+    Build a Game Project: Feed-A-Star-Mole
+    2 hours, 14 minutes -->
+    </body>
+    </html>
