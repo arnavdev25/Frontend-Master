@@ -64,12 +64,16 @@ main.innerHTML = null;
         timeDiv.setAttribute("id","timeDiv")
         timeDiv.append(time)
 
-        let CC = document.createElement("div")
-        CC.innerText="CC"
-        CC.setAttribute("id","CC")
+        // let CC = document.createElement("div")
+        // CC.innerText="CC"
+        // CC.setAttribute("id","CC")
+
+        let caption = document.createElement("strong");
+        caption.innerText = "CC";
+        caption.className = "caption"
 
         let outerDiv2= document.createElement("div")
-        outerDiv2.append(timeDiv,CC)
+        outerDiv2.append(timeDiv,caption)
         outerDiv2.setAttribute("id","outerDiv2")
         outerDiv2.style.display="flex"
 
