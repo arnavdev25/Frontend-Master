@@ -1,223 +1,361 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #222222;
-    color: #e6e6e6;
-    font-family: Open Sans,sans-serif;
+body {
+  background-color: #222222;
+  color: #e6e6e6;
+  font-family: Open Sans, sans-serif;
 }
-#clip{
+/* #clip{
     background-color: #DF5826;
     clip-path: polygon(0 0, 100% 0, 100% 6%, 0 2%);
    
     height:370px;
     width:100%;
     /* border:5px solid black; */
+
+#head {
+  max-width: 80%;
+  /* border: 2px solid blue; */
+  margin: auto;
+  padding: 20px 0 20px 0;
+  margin-top: 3%;
 }
-#head{
-    height:50px;
-    max-width:75%;
-    border:2px solid blue;
-    margin: auto;
-    margin-top: -300px ;
+#head h1 {
+  font-size: 36px;
+  color: #e6e6e6;
+  font-weight: 600;
 }
-#cointainer{
-    max-width:75%;
-    margin:auto;
-    border: 2px solid green;
-    margin-top: 20px;
-    display:flex;
-    /* flex-wrap: wrap; */
+#cointainer {
+  max-width: 80%;
+  margin: auto;
+  /* border: 2px solid green; */
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 70px;
+  /* flex-wrap: wrap; */
 }
-#cointainer>div{
-    border:2px solid teal;
-  
+#cointainer > div {
+  /* border: 2px solid teal; */
 }
-#first_parent{
-    width:50%;
-    margin:0 25px 0 0;
+#first_parent {
+  width: 50%;
+  margin: 0 25px 0 0;
 }
-#second_child{
-    width:50%;
-    margin: 0 0 0 25px;
+#second_child {
+  width: 50%;
+  margin: 0 0 0 25px;
 }
 /*.................first_parent.....................*/
 /* ................#continue_watching............... */
 
-#continue_watching{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-   padding:15px 0 15px 0;
+.continue_watching {
+  max-width: 100%;
+  /* border: 1px solid yellowgreen; */
+  padding: 4% 0 4% 0;
 }
-#continue_watching p{
-    font-size: 25px;
-   
+.continue_watching p {
+  font-size: 25px;
 }
-#continue_watching p span{
-    color:white;
+.continue_watching p span {
+  color: white;
 }
 
 /* ................#welcome............... */
 
-#welcome{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-   margin:15px 0 15px 0;
-   background-color: black;
+#welcome {
+  max-width: 100%;
+  /* border: 1px solid yellowgreen; */
+  margin: 15px 0 15px 0;
+  background-color: black;
 }
-#welcome>div{
-    width:100%;
-    border:1px solid pink;
-    margin:5px 0 5px 0;
-    
+#welcome > div {
+  width: 96%;
+  /* border: 1px solid pink; */
+  margin: 3% 0 0 2%;
 }
 
 /* ................#welcome_one............... */
 
-#welcome #welcome_one>h6{
-    font-size: 20px;
-    padding-left:15px;
-    padding-top: 10px;
-    line-height: 28px;
+#welcome_one > h6 {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+  line-height: 25px;
 }
-#welcome #welcome_one>p{
-    padding-left:15px;
-    line-height: 28px;
-    font-size: 17px;
-    color:rgb(255, 255, 255);
+#welcome_one > p {
+  padding-left: 15px;
+  line-height: 25px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
 }
-#welcome #welcome_one>#p{
-  color:rgb(158, 147, 147);
-  padding-left:15px;
+#welcome_one > #p {
+  color: rgb(158, 147, 147);
+  padding-left: 15px;
   line-height: 25px;
   padding-bottom: 10px;
 }
 
 /* ................#welcome_two............... */
 
-#welcome #welcome_two{
-      display:flex;
-      height:80px;
-    
+#welcome_two {
+  display: flex;
+  
 }
-#welcome #welcome_two> .image{
-    width:15%;
-    
-    border:3px solid red;
+.image {
+  width: 15%;
+  height:90px;
+  /* border: 3px solid red; */
 }
-#welcome #welcome_two> .text{
-    width:80%;
-    border:3px solid red;
-    margin-left: 15px;
+.text {
+  width: 80%;
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
 }
-#welcome #welcome_two> .image>img{
-    height:90%;
-    width:90%;
-    margin:4px;
+.text p {
+  color: #a7a799;
+}
+.text p a {
+  text-decoration: none;
+  color: #9c341d;
+  font-size: 18px;
+}
+.image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* ................#welcome_three............... */
 
-#welcome #welcome_three{
-    display:flex;
-    height:80px;
-  
-}
-#welcome #welcome_three> .image{
-  width:15%;
-  
-  border:3px solid red;
-}
-#welcome #welcome_three> .text{
-  width:80%;
-  border:3px solid red;
-  margin-left: 15px;
-}
-#welcome #welcome_three> .image>img{
-  height:90%;
-  width:90%;
-  margin:4px;
+#welcome_three {
+  display: flex;
+  /* height:80px; */
 }
 
 /* ................#welcome_three............... */
 
-#welcome #welcome_four{
-    display:flex;
-    height:80px;
-  
-}
-#welcome #welcome_four> .image{
-  width:15%;
-  
-  border:3px solid red;
-}
-#welcome #welcome_four> .text{
-  width:80%;
-  border:3px solid red;
-  margin-left: 15px;
-}
-#welcome #welcome_four> .image>img{
-  height:90%;
-  width:90%;
-  margin:4px;
+#welcome_four {
+  display: flex;
+  /* height:80px; */
 }
 
 /* ................#welcome_five............... */
 
-#welcome_five{
-    padding:30px 0 20px 0;
+#welcome_five {
+  padding: 30px 0 20px 0;
 }
-#welcome_five p{
-    margin-left: 15px;
+#welcome_five p {
+  margin-left: 15px;
+}
+#welcome_five p a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #cd564a;
 }
 
 /* ................#learning............... */
 
-#learning{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-    padding:15px 0 15px 0;
+.learning {
+  max-width: 100%;
+  /* border: 1px solid yellowgreen; */
+  padding: 5% 2%;
+  margin: 3% 0;
 }
-#learning p{
-    font-size: 25px;
-   
+.learning p {
+  font-size: 25px;
 }
-#learning p span{
-    color:red;
-    font-size: 18px;
-    margin-left: 120px;
-}
+/* .learning p span {
+  color: red;
+  font-size: 18px;
+} */
 
-
-#beginner{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-    
+#beginner {
+  max-width: 100%;
+  margin:5% 0;
+  /* border: 1px solid yellowgreen; */
 }
-#beginner #option{
+#beginner #option {
+  width: 100%;
+  /* border: 2px solid blue; */
+  /* height:50px; */
+  padding: 25px 0 25px 0;
+  background-color: black;
+}
+#beginner #option #select {
+  width: 85%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 7.5%;
+}
+#beginner #circle {
+  /* border: 2px solid red; */
+  background-color: #383838;
+  display: flex;
+}
+#progress_bar {
+  /* border: 5px solid yellow; */
+  width: 50%;
+}
+#content {
+  /* border: 2px solid yellow; */
+  width: 50%;
+}
+#content h2 {
+  margin: 30% 0 5% 5%;
+  color: #eee2e2;
+  font-size: 30px;
+}
+#content p {
+  padding: 0 25% 0 5%;
+  color: #eee2e2;
+  font-size: 18px;
+  line-height: 26px;
+}
+#content a {
+  margin: 20px 0 0 20px;
+  color: #cd564a;
+  font-size: 16px;
+  line-height: 35px;
+}
+#fullstack {
+  max-width: 100%;
+  background-color: black;
+}
+#fullstack>div{
+    margin:3% 0 0 2%;
+}
+#fullstack #welcome_two,
+#fullstack #welcome_three,
+#fullstack #welcome_four {
+  background-color: black;
+}
+#video {
+  width: 100%;
+  height: 300px;
+  background-color: #383838;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#video .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+#video .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#video .button {
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  z-index: 1;
+}
+#video_youtube{
     width:100%;
-    border: 2px solid blue;
-    height:50px;
-    padding:25px 0 35px 0;
+
+}
+
+.button button{
+    background-color: #d1561c;
+    height:60px;
+    width:200px;
+    border-radius: 30px;
+    color:white;
+    font-size: 25px;
+    border-style: none;
    
 }
-#beginner #option #select{
-    width:80%;
-    padding:10px;
-    border-radius: 10px;
-    margin-left: 50px;
-    border: 2px solid rgb(0, 140, 255);
+.paragraph {
+  /* border: 3px solid lime; */
+  background-color: black;
+  padding: 20px 0 20px 0;
 }
-#course{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-    height:50px;
-   margin:5px 0 5px 0;
+.paragraph h4 {
+  font-size: 17px;
+  padding: 0 5%;
 }
-#fullstack{
-    max-width: 100%;
-    border:1px solid yellowgreen;
-    height:50px;
-   margin:5px 0 5px 0;
+.paragraph p {
+  font-size: 14px;
+  padding: 0 5%;
+  color: #a8a0a0;
+  line-height: 20px;
+}
+.paragraph p span{
+    color:rgb(138, 9, 9);
+}
+#second  {
+    background-color: black;
+}
+#welcome_four, #welcome_three, #welcome_two {
+    margin: 1% 0 1% 2%;
+}
+hr{
+    width:98%;
+    margin: auto;
+    color:grey;
+    margin-top: 2%;
+}
+
+@media only screen and (min-width: 381px) and (max-width: 768px) {
+  #cointainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #cointainer > div {
+    width: 98%;
+    margin: auto;
+  }
+  .text p {
+    line-height: 16px;
+    font-size: 18px;
+  }
+  .text p a {
+    font-size: 16px;
+  }
+  /* #beginner #circle{
+        flex-direction: column;
+    }
+    #beginner #circle > div{
+        width:90%;
+        margin:auto;
+    }
+    */
+}
+@media only screen and (min-width: 50px) and (max-width: 380px) {
+  #cointainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #cointainer > div {
+    width: 98%;
+    margin: auto;
+  }
+  .text p {
+    line-height: 16px;
+    font-size: 12px;
+  }
+  .text p a {
+    font-size: 14px;
+  }
+  #beginner #circle {
+    flex-direction: column;
+  }
+  #beginner #circle > div {
+    width: 90%;
+    margin: auto;
+  }
 }
