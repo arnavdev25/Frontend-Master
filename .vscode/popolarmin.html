@@ -10,6 +10,7 @@
 <style>
 *{
     font-family:"Open Sans",sans-serif;
+    /* background-color: #222222; */
   
 }
 body{
@@ -31,6 +32,7 @@ body{
 
     display:flex;
     height: 85.5px;
+    margin-bottom: 10px;
     /* margin-bottom: 30px; */
     overflow:hidden;
     position: relative;
@@ -48,20 +50,28 @@ body{
 
 
 img{
+  transition: opacity 1s;
+  opacity: .5;
   height:85.5px;
   width: 85.5px; 
 }
 
-
-#titleDiv,#imgDiv,#nameDiv,#descDiv,#btnDiv{
+#nameDiv{
   padding-left: 20px;
   background-color: black;
+  width: 100%;
 }
 
-
-#btnDiv{
-  padding-bottom: 20px;
+h1{
+    color: #DD625E;
+    font-size: 21px;
 }
+
+#p{
+  font-size: 16px;
+  color: #8a8a8a;
+}
+
 
 #outerDiv{
   height: 337px;
@@ -76,13 +86,7 @@ img{
 
    
 }
-#instructor_img{
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  /* border: 1px solid peru; */
-  /* display: flex; */
-}
+
 #flexDiv{
   display: flex;
   gap: 5%;
@@ -93,9 +97,10 @@ img{
     font-size: 16px;
 }
 
-h1{
-    color: #DD625E;
-}
+
+/* #h1{
+  width: 100%;
+} */
 #btn1{
     background-color:#C02D28;
     color: white;
