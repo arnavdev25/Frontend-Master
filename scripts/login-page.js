@@ -50,7 +50,7 @@ const loginUser = () => {
   let alert_box = document.querySelector(".alert-msg");
   if (success) {
     localStorage.setItem("logged_user", JSON.stringify(logged_user));
-    window.location.href = "account.html";
+    window.location.href = "dashboard.html";
   } else {
     alert_box.innerText = "That wasn't correct. Try again?";
     alert_box.classList.add("active-alert");

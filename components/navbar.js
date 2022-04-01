@@ -6,7 +6,7 @@ function navbar() {
     <div class="header-wrap">
     <div class="left">
       <div class="logo">
-        <a href="index.html">
+        <a href="dashboard.html">
           <img
             src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg"
             alt="Front-End"
@@ -16,7 +16,7 @@ function navbar() {
     </div>
     <div class="right">
       <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Home</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
       <li><a href="bootcamp.html">Workshops</a></li>
@@ -34,7 +34,7 @@ function navbar() {
   </div>
   <div class="mobile">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Home</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="learn.html">Learn</a></li>
         <li><a href="bootcamp.html">Workshops</a></li>
