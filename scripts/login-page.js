@@ -17,7 +17,7 @@ hamburger.addEventListener("click", function () {
 
 let login_form = document.querySelector("#login-form");
 
-const loginUser = () => {
+const loginUser = (event) => {
   event.preventDefault();
   let login_data = JSON.parse(localStorage.getItem("login_data")) || [];
 

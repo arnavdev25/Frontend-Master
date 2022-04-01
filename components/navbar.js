@@ -17,7 +17,7 @@ function navbar() {
     <div class="right">
       <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Courses</a></li>
+      <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
       <li><a href="#">Workshops</a></li>
       <li><a href="account.html">My Account</a></li>
@@ -74,7 +74,7 @@ function navbar() {
   </div>
   <div class="right">
     <ul>
-      <li><a href="#">Courses</a></li>
+      <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
       <li><a href="#">Pricing</a></li>
       <li><a href="Login.html">Login</a></li>

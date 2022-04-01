@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles/courses.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <!-- <link rel="stylesheet" href=".\styles\popular.css" /> -->
+    <!-- <link rel="stylesheet" href=".\styles\popularmin.css" /> -->
   </head>
   <body>
     <div class="header"></div>
@@ -18,16 +20,15 @@
     <div id="wrap">
       <div id="nav">
         <a href="#">All courses</a>
-        <a href="#">Popular courses</a>
-        <a href="#">Learning Paths</a>
+        <a href="popular.html">Popular courses</a>
+        <a href="learn.html">Learning Paths</a>
       </div>
     </div>
-    <div id="main">
-      <div id="expand">
-        <img src="menuButton1.png" id="menuButton" alt="" />
-        <img src="menuButton2.png" id="menuButton" alt="" />
-      </div>
+    <div id="expand">
+      <img src="menuButton1.png" id="menuButton1" alt="" />
+      <img src="menuButton2.png" id="menuButton2" alt="" />
     </div>
+    <div id="main"></div>
     <div id="footer"></div>
   </body>
 </html>
@@ -1041,6 +1042,9 @@
   console.log(coursesData);
 
   import { append, search } from "./scripts/courses.js";
+  import { minidisplay } from "./scripts/courses.js";
+  console.log("minidisplay:", minidisplay);
+
   console.log("search:", search);
   console.log("append:", append);
 
@@ -1051,25 +1055,45 @@
   let searchItem = document.getElementById("search");
 
   console.log("searchItem:", searchItem);
-  // console.log("searchItem:", searchItem.onkeyup);
-  // searchItem.setAttribute("onkeyup", "search(coursesData, searchItem)");
-  searchItem.addEventListener("keyup", function () {
-    search(coursesData, searchItem);
-    // console.log("coursesData:", filterData);
-  });
-  // searchItem.onkeyup = "search(coursesData, searchItem)";
-  // console.log("searchItem:", searchItem.onkeyup);
-</script>
-<!-- <script src="./scripts/coursesData.js">
-  let main2 = document.getElementById("main");
+  let body = document.querySelector("head");
 
-  function search() {
-    var searchText = document.getElementById("search").value.toLowerCase();
-    console.log(searchText);
-    var filterData = coursesData.filter(function (item) {
-      var elem = item.title.toLowerCase();
-      return elem.includes(searchText);
-    });
-    append(filterData, main2);
-  }
-</script> -->
+  searchItem.addEventListener("keyup", function () {
+    // let link = document.createElement("link");
+    // link.rel = "stylesheet";
+    // link.href = `./styles/popular.css`;
+    // link.className = "popular";
+    // let link2 = document.querySelectorAll(".popular");
+    // console.log("link2:", link2);
+    // link2.innerHTML = "";
+    // let link1 = document.querySelectorAll(".popularmin");
+    // link1.innerHTML = null;
+
+    // body.append(link);
+    // console.log("link:", link);
+    search(coursesData, searchItem, body);
+  });
+
+  let menuButton1 = document.getElementById("menuButton1");
+  menuButton1.addEventListener("click", function () {
+    let link = document.querySelectorAll(".popular");
+    link.innerHTML = "";
+    let link1 = document.createElement("link");
+    link1.rel = "stylesheet";
+    link1.className = "popularmin";
+    link1.href = `./styles/popularmin.css`;
+
+    body.append(link1);
+    console.log("link:", link1);
+    minidisplay(coursesData, main, body);
+  });
+
+  let menuButton2 = document.getElementById("menuButton2");
+  menuButton2.addEventListener("click", function () {
+    let link = document.querySelectorAll(".popular");
+    link.innerHTML = "";
+    let link1 = document.querySelectorAll(".popularmin");
+    link1.innerHTML = null;
+
+    append(coursesData, main);
+  });
+</script>

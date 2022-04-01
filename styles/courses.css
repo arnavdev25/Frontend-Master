@@ -50,18 +50,19 @@
     color: grey;
   }
   #expand{
-    width: 100%;
+    width: 85%;
+    margin: auto;
     /* height: 100px; */
     /* margin: auto; */
     margin-top:10px;
     margin-bottom: 10px;
-    /* border: 1px solid green;  */
+    /* border: 5px solid green;  */
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
   }
-  #menuButton{
+  #menuButton1, #menuButton2{
     width: 20px;
     height: 20px;
   }

@@ -1,3 +1,22 @@
+import navbar from "../components/navbar.js";
+import footer from "../components/footer.js";
+
+
+
+
+
+
+document.querySelector(".header").innerHTML = navbar();
+document.querySelector("#footer").innerHTML = footer();
+
+// Click Event on Hamburger Icon
+const hamburger = document.querySelector(".menu");
+const navMenu = document.querySelector(".mobile");
+hamburger.addEventListener("click", function () {
+  navMenu.classList.toggle("active");
+});
+
+
 
 
 function display(data,main){
