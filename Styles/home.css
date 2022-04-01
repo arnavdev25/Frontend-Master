@@ -104,8 +104,8 @@ body {
   
 }
 .image {
-  width: 15%;
-  height:90px;
+  width: 14%;
+  height:70px;
   /* border: 3px solid red; */
 }
 .text {
@@ -123,6 +123,9 @@ body {
   text-decoration: none;
   color: #9c341d;
   font-size: 18px;
+}
+.text p a:hover {
+    text-decoration: underline;
 }
 .image > img {
   height: 100%;
@@ -157,13 +160,16 @@ body {
   text-decoration: none;
   color: #cd564a;
 }
+#welcome_five p a:hover{
+    text-decoration: underline;
+}
 
 /* ................#learning............... */
 
 .learning {
   max-width: 100%;
   /* border: 1px solid yellowgreen; */
-  padding: 5% 2%;
+  padding: 2.5% 2%;
   margin: 3% 0;
 }
 .learning p {
@@ -276,6 +282,9 @@ body {
     font-size: 25px;
     border-style: none;
    
+}
+.button button:hover{
+    background-color: #f18350;
 }
 .paragraph {
   /* border: 3px solid lime; */
