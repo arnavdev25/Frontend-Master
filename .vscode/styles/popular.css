@@ -57,8 +57,6 @@ transition: color .2s;
 color: #e6e6e6;
 font-family: sans-serif;
 line-height: 1;
-/* padding: 15px 0px 0px; */
-
 }
 
 #desc{
@@ -89,21 +87,7 @@ margin-left: 20px;
 }
 #div3 {
   margin-left: 20px;
-   /* margin-top:12.5px ;
-   
-   line-height: 25px;
-   font-size: 20px; */
 }
-/* #p1 {
-color: #e6e6e6; */
-/* line-height: 25px;
-margin-bottom: 15px;
-
-}
-#p2 {
-color: #8a8a8a;
-margin-bottom: 35px;
- */
 
 
 #main h3:hover {
@@ -173,10 +157,10 @@ font-weight: bold;
 #img {
  position: absolute;
 }
-#div1 {
+#mainDiv {
   position: relative;
   margin-left: 100px;
-  background-color: #000000d0;
+  background-color:#000000d0;
 }
 #div {
 background-color: transparent;
@@ -201,7 +185,7 @@ margin-bottom: 15px;
   background-color: #000000d0;
 }
 #div {
-background-color: transparent black;
+background-color: transparent ;
 height: 500px;
 
 }
