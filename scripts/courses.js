@@ -2,13 +2,14 @@
 
 const append = (data, parent)=>{
     
-    // parent.innerHTML = null;
+    parent.innerHTML = null;
 
     data.forEach((el) => {
         // console.log('el:', el);
+    
 
         let mainClass = document.createElement("div");
-        mainClass.className = "c";
+        mainClass.className = "mainClass";
 
 
         let outerDiv = document.createElement("div");
@@ -32,17 +33,27 @@ const append = (data, parent)=>{
         btn1.innerText = "Watch Free Preview";
         btn1.id = "btn1";
 
+        let link1 = document.createElement("a");
+        link1.href = "https://frontendmasters.com/courses/angular-13/";
+
+        link1.append(btn1);
+
 
         let btn2 = document.createElement('button');
         btn2.innerText = "Get Full Access";
         btn2.id = "btn2";
+       
+        let link2 = document.createElement('a');
+        link2.href = "https://frontendmasters.com/join/ ";
+
+        link2.append(btn2);
 
 
         let title = document.createElement("h2");
         title.innerText = el.title;
         title.className ="title";
 
-        btnClass.append(btn1, btn2);
+        btnClass.append(link1, link2);
 
 
         let instructorClass = document.createElement("div");
@@ -111,18 +122,28 @@ const append = (data, parent)=>{
         
 
         parent.append(mainClass);
-
-
-
-
-
-        
-
-        
         
     })
 }
 
-export default append;
+  function search(data,inputValue) {
+    var searchText = inputValue.value.toLowerCase();
+    console.log(searchText);
+    var filterData = data.filter(function (item) {
+      var elem = item.title.toLowerCase();
+      return elem.includes(searchText);
+    });
+      console.log('filterData:', filterData)
+      
+    append(filterData, main);
+  }
+
+
+export { append, search };
+
+// export default append;
+
+
+
 
 

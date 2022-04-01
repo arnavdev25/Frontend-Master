@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/courses.css" />
-  </head>
-  <body>
-    <header class="header">
-      <h1>Frontend Masters Courses</h1>
-      <input type="text" placeholder="Type to search" id="search" />
-    </header>
-    <div id="wrap">
-      <div id="nav">
-        <a href="#">All courses</a>
-        <a href="#">Popular courses</a>
-        <a href="#">Learning Paths</a>
-      </div>
-    </div>
-    <div id="main">
-      <div id="expand">
-        <img src="menuButton1.png" id="menuButton" alt="" />
-        <img src="menuButton2.png" id="menuButton" alt="" />
-      </div>
-    </div>
-  </body>
-</html>
-<script type="module">
-  let coursesData = [
+let coursesData = [
     {
       title: "Angular 9 Fundamentals",
       href: "\/courses\/angular-9\/",
@@ -990,7 +960,8 @@
     },
   ];
 
-  console.log(coursesData);
+console.log(coursesData);
+  
 
   //instructor_image data
 
@@ -1035,37 +1006,3 @@
   }
 
   console.log(coursesData);
-
-  import { append, search } from "./scripts/courses.js";
-  console.log("search:", search);
-  console.log("append:", append);
-
-  let main = document.getElementById("main");
-
-  append(coursesData, main);
-
-  let searchItem = document.getElementById("search");
-
-  console.log("searchItem:", searchItem);
-  // console.log("searchItem:", searchItem.onkeyup);
-  // searchItem.setAttribute("onkeyup", "search(coursesData, searchItem)");
-  searchItem.addEventListener("keyup", function () {
-    search(coursesData, searchItem);
-    // console.log("coursesData:", filterData);
-  });
-  // searchItem.onkeyup = "search(coursesData, searchItem)";
-  // console.log("searchItem:", searchItem.onkeyup);
-</script>
-<!-- <script src="./scripts/coursesData.js">
-  let main2 = document.getElementById("main");
-
-  function search() {
-    var searchText = document.getElementById("search").value.toLowerCase();
-    console.log(searchText);
-    var filterData = coursesData.filter(function (item) {
-      var elem = item.title.toLowerCase();
-      return elem.includes(searchText);
-    });
-    append(filterData, main2);
-  }
-</script> -->
