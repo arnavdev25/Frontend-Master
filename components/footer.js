@@ -1,13 +1,13 @@
-function footer(){
-    return ` <div id="footer1">
+function footer() {
+  return ` <div id="footer1">
     <div class="logo"></div>
     <div >
         <ul>
-            <a href="#"><li>Courses</li></a>
-            <a href="#"><li>Learn</li></a>
+            <a href="courses.html"><li>Courses</li></a>
+            <a href="learn.html"><li>Learn</li></a>
             <a href="teacher.html"><li>Teachers</li></a>
             <a href="grades.html"><li>Guides</li></a>
-            <a href="#"><li>Pricing</li></a>
+            <a href="joinnow.html"><li>Pricing</li></a>
             <a href="Login.html"><li>Login</li></a>
             <a href="joinnow.html"><li>Join Now</li></a>
             <a href="FAQ.html"><li>FAQ</li></a>
@@ -36,6 +36,6 @@ function footer(){
       <p>Frontend Masters is proudly made in Minneapolis, MN</p>
       <p>© 2021 Frontend Masters · Terms of Service · Privacy Policy</p>
   </div>
-`
+`;
 }
 export default footer;

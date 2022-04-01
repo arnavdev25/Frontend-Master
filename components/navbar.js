@@ -16,10 +16,10 @@ function navbar() {
     </div>
     <div class="right">
       <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Courses</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
-      <li><a href="#">Workshops</a></li>
+      <li><a href="bootcamp.html">Workshops</a></li>
       <li><a href="account.html">My Account</a></li>
       <li class="logout"><a id="logout" href="#index.html">Log Out(${
         logged_user.fn
@@ -34,10 +34,10 @@ function navbar() {
   </div>
   <div class="mobile">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Courses</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
         <li><a href="learn.html">Learn</a></li>
-        <li><a href="#">Workshops</a></li>
+        <li><a href="bootcamp.html">Workshops</a></li>
         <li><a href="account.html">My Account</a></li>
         <li class="logout"><a id="logout" href="#index.html">Log Out(${
           logged_user.fn + logged_user.ln
@@ -74,9 +74,9 @@ function navbar() {
   </div>
   <div class="right">
     <ul>
-      <li><a href="#">Courses</a></li>
+      <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
-      <li><a href="#">Pricing</a></li>
+      <li><a href="joinnow.html">Pricing</a></li>
       <li><a href="Login.html">Login</a></li>
       <li><a href="joinnow.html">Join Now</a></li>
     </ul>
@@ -89,11 +89,11 @@ function navbar() {
 </div>
 <div class="mobile">
     <ul>
-      <li><a href="#">Courses</a></li>
-      <li><a href="learn.html">Learn</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="Login.html">Login</a></li>
-      <li><a href="joinnow.html">Join Now</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="learn.html">Learn</a></li>
+    <li><a href="joinnow.html">Pricing</a></li>
+    <li><a href="Login.html">Login</a></li>
+    <li><a href="joinnow.html">Join Now</a></li>
     </ul>
   </div>
 <svg
