@@ -1,6 +1,11 @@
 import navbar from "../components/navbar.js";
 import footer from "../components/footer.js";
 
+// import { display } from "./scripts/popular.js"
+
+
+
+
 
 document.querySelector(".header").innerHTML = navbar();
 document.querySelector("#footer").innerHTML = footer();
@@ -140,8 +145,22 @@ const append = (data, parent)=>{
     })
 }
 
-  function search(data,inputValue) {
+function search(data, inputValue, body) {
+
+     let link1 = document.querySelectorAll(".popularmin");
+    // link1.innerHTML = null;
+  // link1.remove();     
     var searchText = inputValue.value.toLowerCase();
+     let link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = `./styles/popular.css`;
+    link.className = "popular";
+    
+   
+
+    body.append(link);
+    console.log("link:", link);
+   
     console.log(searchText);
     var filterData = data.filter(function (item) {
       var elem = item.title.toLowerCase();
@@ -149,13 +168,192 @@ const append = (data, parent)=>{
     });
       console.log('filterData:', filterData)
       
-    append(filterData, main);
+    // append(filterData, main);
+    if (searchText != "") {
+  
+      
+    display(filterData,main);
+      
+    } else {
+  // append(coursesData, main);
+  append(data, main);
+      
+
+    }
+
   }
 
 
 export { append, search };
 
 // export default append;
+  
+  
+  
+
+function display(data,main){
+    console.log(data)
+main.innerHTML = null;
+
+    data.map(function(el){
+        let div = document.createElement("div");
+        div.setAttribute("id","div")
+
+
+
+
+        let mainDiv = document.createElement("div");
+        mainDiv.setAttribute("id","mainDiv")
+
+        let img = document.createElement("img")
+      img.src = el.course_img_url;
+        img.setAttribute("id","img")
+
+        let img1 = document.createElement("img")
+      img1.src = el.instructor_img_url;
+        img1.setAttribute("id","img1")
+
+        let title = document.createElement("h1")
+      title.innerText = el.title;
+
+        let titleDiv =document.createElement('div')
+        titleDiv.id = "titleDiv"
+        titleDiv.append(title)
+
+        let nam = document.createElement("p");
+      nam.innerText = el.instructorName;
+        nam.id = "p"
+        
+        let nameDiv = document.createElement("div")
+        nameDiv.setAttribute("id","nameDiv")
+        
+        let org = document.createElement("p");
+      org.innerText = el.org;
+        org.id = "p1"
+
+        nameDiv.append(nam,org)
+
+        let outerDiv = document.createElement("div")
+        outerDiv.setAttribute("id","outerDiv")
+        outerDiv.append(img1,nameDiv)
+        outerDiv.style.display="flex"
+    
+        let description = document.createElement("p");
+      description.innerText = el.course_description;
+        description.setAttribute("id","description")
+        description.setAttribute("id","desc")
+
+        let descDiv =document.createElement('div')
+         descDiv.id = "descDiv"
+         descDiv.append(description)
+
+        let time = document.createElement("p");
+      time.innerText = el.time;
+        time.setAttribute("id","time")
+
+        let timeDiv =document.createElement('div')
+        timeDiv.setAttribute("id","timeDiv")
+        timeDiv.append(time)
+
+        let CC = document.createElement("div")
+        CC.innerText="CC"
+        CC.setAttribute("id","CC")
+
+        let outerDiv2= document.createElement("div")
+        outerDiv2.append(timeDiv,CC)
+        outerDiv2.setAttribute("id","outerDiv2")
+        outerDiv2.style.display="flex"
+
+        let btn = document.createElement("button")
+        btn.innerText="Watch Free Preview"
+        let btn1 = document.createElement("button")
+        btn1.innerText="Get Full Access"
+        btn.setAttribute("id","btn")
+        btn1.setAttribute("id","btn1")
+        let btnDiv = document.createElement("div")
+        btnDiv.append(btn,btn1)
+        btnDiv.style.display="flex"
+        btnDiv.setAttribute("id","btnDiv")
+
+       mainDiv.append(titleDiv,outerDiv,descDiv,outerDiv2,btnDiv)
+       div.append(img,mainDiv)
+       div.addEventListener("click",function(){
+           window.location.href="display.html"
+           let displayArr=[];
+           displayArr.push(el)
+       })
+       btn1.addEventListener("click",function(){
+           window.location.href="joinnow.html"
+       })
+        main.append(div)
+    })
+}
+
+export  {display};
+
+
+
+
+
+
+function minidisplay(data,main,body){
+console.log('minidisplay:', minidisplay)
+  main.innerHTML = null;
+  
+
+  data.map(function (el) {
+     
+        let div = document.createElement("div");
+        div.setAttribute("id","div")
+
+
+
+
+        let mainDiv = document.createElement("div");
+        mainDiv.setAttribute("id","mainDiv")
+
+        let img = document.createElement("img")
+      img.src = el.instructor_img_url;
+        img.setAttribute("id","img")
+
+       
+        let title = document.createElement("h1")
+      title.innerText = el.title;
+
+        let titleDiv =document.createElement('div')
+      titleDiv.id = "titleDiv";
+        titleDiv.append(title)
+
+        let nam = document.createElement("p");
+      nam.innerText = el.instructorName;
+        nam.id = "p"
+        
+        let nameDiv = document.createElement("div")
+        nameDiv.setAttribute("id","nameDiv")
+        
+      
+
+        nameDiv.append(title,nam)
+
+      
+
+      mainDiv.append(img, nameDiv)
+      
+      div.append(mainDiv);
+      //  div.addEventListener("click",function(){
+      //      window.location.href="display.html"
+      //      let displayArr=[];
+      //      displayArr.push(el)
+      //  })
+     
+      main.append(div);
+
+
+      
+    })
+}
+
+export  {minidisplay};
 
 
 
