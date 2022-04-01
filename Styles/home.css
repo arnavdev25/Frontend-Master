@@ -268,8 +268,8 @@ body {
   top: 0; */
   z-index: 1;
 }
-#video_youtube{
-    width:100%;
+#video_youtube iframe{
+    width:98%;
 
 }
 
@@ -350,21 +350,28 @@ hr{
     width: 100%;
   }
   #cointainer > div {
-    width: 98%;
+    width: 100%;
     margin: auto;
   }
   .text p {
-    line-height: 16px;
+    line-height: 17px;
     font-size: 12px;
   }
   .text p a {
     font-size: 14px;
   }
   #beginner #circle {
+    display: flex;
     flex-direction: column;
   }
   #beginner #circle > div {
     width: 90%;
     margin: auto;
+  }
+  .button button{
+      width:80%;
+  }
+  #video_youtube iframe{
+      width:98%;
   }
 }
