@@ -64,12 +64,22 @@ line-height: 1;
 font-family: sans-serif;
 margin-left: 20px;
 }
+.caption{
+   color:#222;
+   margin-left: 5px;
+   background-color:rgb(138, 138, 138);
+   padding:0 4px;
+   border-radius: 8px;
+   font-size: 14px;
+   font-weight: 600;
+
+ }
 #CC{
   background-color: #8a8a8a;
   margin-left: 20px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   border-radius: 10px;
-  height: 20px;
+  /* height: 20px; */
 }
 #time,#p1{
 
