@@ -343,6 +343,9 @@ width: 280px;
 font-weight: bold;
 
 }
+#bottom button:hover {
+    background: chocolate;
+}
  @media all and (max-width:768px) and (min-width:381px){
 #img {
    position: absolute;
