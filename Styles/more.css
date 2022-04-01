@@ -74,10 +74,11 @@
              height:300px;
              width:80%;
              display: flex;
-             margin: 50px auto;
+             margin:  auto;
              justify-content: space-evenly;
              border-bottom: 1px solid  #e6e6e6;;
              padding-bottom: 80px;
+             margin-top: 500px;
              /* align-items: center; */
 
              /* border:2px solid blue; */
