@@ -1,7 +1,7 @@
 function navbar() {
   let logged_user = JSON.parse(localStorage.getItem("logged_user"));
   if (logged_user) {
-    console.log(logged_user);
+    // console.log(logged_user);
     return `<div class="wrap">
     <div class="header-wrap">
     <div class="left">

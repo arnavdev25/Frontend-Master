@@ -13,6 +13,16 @@ hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
 
+const logout = () => {
+  window.location.href = "index.html";
+  localStorage.removeItem("logged_user");
+};
+// For logout
+let logout_btn = document.getElementById("logout");
+if (logout_btn) {
+  logout_btn.addEventListener("click", logout);
+}
+
 // Slider Container
 let slider_con = document.querySelector(".slider-container");
 slider_con.innerHTML = slider();

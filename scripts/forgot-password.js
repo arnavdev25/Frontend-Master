@@ -6,41 +6,31 @@ document.querySelector(".header").innerHTML = navbar();
 
 document.querySelector("#footer").innerHTML = footer();
 
+const logout = () => {
+  window.location.href = "index.html";
+  localStorage.removeItem("logged_user");
+};
+
+// For logout
+let logout_btn = document.getElementById("logout");
+if (logout_btn) {
+  logout_btn.addEventListener("click", logout);
+}
+
 let forgot_password_container = document.querySelector(
   ".forgot-password-container"
 );
 forgot_password_container.innerHTML = forgot();
 
 let forgot_password_form = document.querySelector("#forgot-pass");
-let data = [
-  {
-    name: "Aniket",
-    email: "aniket@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Miles",
-    email: "aniket0123@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Haresh",
-    email: "haresh2910@gmail.com",
-    password: "test",
-  },
-  {
-    name: "Krunal",
-    email: "krunal3103@gmail.com",
-    password: "test",
-  },
-];
 const resetPassword = () => {
   event.preventDefault();
+  let login_data = JSON.parse(localStorage.getItem("login_data")) || [];
   let email = document.querySelector("#email").value;
   let new_pass = document.querySelector("#new-pass").value;
   let success = false;
-  for (let i = 0; i < data.length; i++) {
-    let el = data[i];
+  for (let i = 0; i < login_data.length; i++) {
+    let el = login_data[i];
     if (el.email === email) {
       el.password = new_pass;
       success = true;
@@ -49,8 +39,8 @@ const resetPassword = () => {
   }
   let alert_box = document.querySelector(".alert-msg");
   if (success) {
-    // localStorage.setItem("logged_user", JSON.stringify(logged_user));
-    console.log(data);
+    localStorage.setItem("login_data", JSON.stringify(login_data));
+    window.location.href = "Login.html";
   } else {
     alert_box.innerText = "Email doesn't Exist in our database. Try again";
     alert_box.classList.add("active-alert");

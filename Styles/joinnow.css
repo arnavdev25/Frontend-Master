@@ -249,3 +249,89 @@
 .submit-container input[type="submit"]:hover {
   background: #d43530;
 }
+
+.twitter-container {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.twitter-box {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  color: #222;
+  line-height: 1.4;
+  min-width: 240px;
+  padding: 16px;
+  position: relative;
+  text-align: left;
+}
+
+.twitter-box-top {
+  color: #222;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-img {
+  width: 10%;
+  margin-right: 10px;
+}
+.profile-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+.user-name {
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.twit-icon {
+  margin-left: auto;
+  font-size: 27px;
+  color: #1da1f2;
+}
+
+.twitter-box-mid {
+  font-size: 17px;
+  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.twitter-box-bottom {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #8a8a8a;
+  padding-top: 10px;
+}
+
+.que-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0 80px;
+  text-align: center;
+}
+.que-container h3 {
+  font-size: 27px;
+  margin: 0;
+  padding: 0 0 10px;
+}
+.que-container p {
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+}
+.que-container p a {
+  color: #dd625e;
+}
