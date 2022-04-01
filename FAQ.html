@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     body{
         background-color: #222;
     }
@@ -16,6 +23,8 @@
         width: 100%; */
         /* border: 2px solid red; */
         justify-content: center;
+        margin-bottom: 60px;
+        /* padding-top: 30px; */
         
     }
     #child1{
@@ -26,6 +35,7 @@
                 margin-top: 20px;
                 background-color: #e8e8e8;
                 font-weight: 600;
+                padding-top: 40px;
                 
 
     }
@@ -36,7 +46,7 @@
                 background-color: black;
                 color: white;
                 margin-top: 20px;
-                
+                padding-top: 30px;
                 
                 
 
@@ -73,80 +83,127 @@
         font-family: Open Sans,sans-serif;
         line-height: 50px;
         margin-left: 50px;
+        margin-bottom: 15px;
     }
     #para2{
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: -10px;
+        /* padding-top: -10px; */
         margin-left: 50px;
-        color:#333333
+        font-weight: 400;
+        margin-bottom: 15px;
     }
     #bullet{
-        margin-left: 40px;
-        line-height: 30px;
+        margin-left: 80px;
+        line-height: 35px;
        
     }
     .links1{
         color: #dd625e;
         font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
     }
     #site{
         margin-left: 20px;
+        margin-bottom: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    @media only screen and (max-width: 550px) {
-        .FAQ_container{
+    @media all and (max-width:768px) and (min-width:381px){
+       #heading {
+           /* color: #dd625e; */
+           margin-left:40px;
+       }
+       .FAQ_container{
         display: flex;
         flex-direction : column-reverse;
         justify-content: center;
         /* margin-left: 25px; */
-        
+
     }
-    #child2 { 
-      height: 300px;
-      width:100%;
-      margin-left: 15px;
-}
-    #para{
-        font-size: 36px;
-        line-height: 50px;
-        margin-left: 50px;
-        width: 350px;
+    #child2 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
     }
-    #para2{
-        width: 410px;
-        font-size: 19px;
-        line-height: 30px;
+    #child1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
     }
+
     }
+    @media all and (max-width:388px) and (min-width:50px){
+       #heading {
+           /* color: #dd625e; */
+           margin-left:30px;
+       }
+       .FAQ_container{
+        display: flex;
+        flex-direction : column-reverse;
+        justify-content: center;
+        /* margin-left: 25px; */
+
+    }
+    #child2 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #child1 {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    }
+    
+    
+
 </style>
 <body>
+    <header class="header"></header>
     <div id="heading"> FAQ</div>
     <div class="FAQ_container">
     <div id="child1">
         <p id="para">Welcome to Frequently Asked  <br>Questions</p>
         <p id="para2">Pick a site area from the navigation, or find a common question below.</p>
         <ul id="bullet" >
-            <li  >   <a class="links1" href=""> How often do you update your courses?</a>    </li > 
-            <li >  <a  class="links1" href="">Do you offer certificates of completion? </a></li > 
-            <li >  <a class="links1" href="">Do you offer a free trial?  </a></li > 
-            <li >  <a class="links1" href=""> How do I cancel my plan?            </a></li > 
-            <li> <a class="links1" href="">Do you offer a student discount?            </a></li>
-            <li> <a  class="links1" href="">How do your team plans work? </a></li>
+            <li  >   <a class="links1" href="https://frontendmasters.com/faq/courses/#how-often-do-you-update-your-courses"> How often do you update your courses?</a>    </li > 
+            <li >  <a  class="links1" href="https://frontendmasters.com/faq/learning-paths/#do-you-offer-certificates-of-completion">Do you offer certificates of completion? </a></li > 
+            <li >  <a class="links1" href="https://frontendmasters.com/faq/join/#do-you-offer-a-free-trial">Do you offer a free trial?  </a></li > 
+            <li >  <a class="links1" href="https://frontendmasters.com/faq/my-account/#how-do-i-cancel-my-plan"> How do I cancel my plan?            </a></li > 
+            <li> <a class="links1" href="https://frontendmasters.com/faq/students/#do-you-offer-a-student-discount">Do you offer a student discount?            </a></li>
+            <li> <a  class="links1" href="https://frontendmasters.com/faq/teams/#how-do-your-team-plans-work">How do your team plans work? </a></li>
 
         </ul>
     </div>
     <div id="child2">
          <h3 id="site">Site Area</h3>
-        <a class="links"href="">Cources</a><br>
-        <a class="links"href="">Learning Paths</a><br>
-        <a class="links"href="">Join</a><br>
-        <a class="links"href="">My Account</a><br>
-        <a class="links"href="">Students</a><br>
-        <a class="links"href="">Teams</a>
+        <a class="links"href="https://frontendmasters.com/faq/courses/">Cources</a><br>
+        <a class="links"href="https://frontendmasters.com/faq/learning-paths/">Learning Paths</a><br>
+        <a class="links"href="https://frontendmasters.com/faq/join/">Join</a><br>
+        <a class="links"href="https://frontendmasters.com/faq/my-account/">My Account</a><br>
+        <a class="links"href="https://frontendmasters.com/faq/students/">Students</a><br>
+        <a class="links"href="https://frontendmasters.com/faq/teams/">Teams</a>
 
     </div>
 
 
 </div>
+<div id="footer"></div>
 </body>
 </html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+   //  console.log(navbar)
+    document.querySelector(".header").innerHTML=navbar()
+    import footer from "./components/footer.js"
+
+document.querySelector("#footer").innerHTML=footer()
+const hamburger = document.querySelector(".menu");
+  const navMenu = document.querySelector(".mobile");
+  hamburger.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+
+</script>

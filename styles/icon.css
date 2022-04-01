@@ -1,0 +1,211 @@
+#grid {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://www.xmple.com/wallpaper/graph-paper-green-grid-1920x1080-c2-071c0b-0f4719-l2-1-50-a-0-f-20.svg");
+}
+ #grid + div{
+     width: 90%;
+     margin: auto;
+     padding-bottom: 15px;
+     border-bottom: 1px solid  #e6e6e6;;
+     color: #e6e6e6;
+     text-align: center;
+     line-height: 45px;
+     margin-top: 50px;
+
+ } #grid + div svg {
+     /* font-size: 100px;
+      */
+      height: 100px;
+      width: 100px;
+      
+    /*  background-color: orange; */
+ }
+ #grid + div h1 {
+     font-size: 46px;
+ }
+ #grid + div p {
+     font-size: 21px;
+     font-weight: 400;
+ }
+ #div {
+     display: flex;
+     background-color: black;
+     height: 400px;
+     width: 90%;
+     margin: 25px auto;
+     /* padding: 20px 0px; */
+     box-sizing: border-box;
+ }
+ #main h3 {
+  color: #dd625e;
+  font-size: 30px;
+ }
+ #main h3:hover {
+  transition: color .2s;
+   
+ }
+ #img {
+     opacity: .5;
+     height: 400px;
+ }
+ #img1 {
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+ }
+ #div1 {
+     padding: 25px 20px;
+ }
+ h4 {
+  color: #e6e6e6;
+
+ }
+ #p {
+    color: #8a8a8a;
+
+ }
+ #div2 {
+     margin-top: 15px;
+     text-align: left;
+     margin-bottom: 15px;
+ }
+ #div3 {
+     margin-top:12.5px ;
+     margin-left: 20px;
+     line-height: 25px;
+     font-size: 20px;
+ }
+ #p1 {
+  color: #e6e6e6;
+  line-height: 25px;
+  margin-bottom: 15px;
+  
+ }
+ #p2 {
+  color: #8a8a8a;
+  margin-bottom: 35px;
+
+
+ }
+#main h3:hover {
+  color: #8a8a8a;
+
+ }
+ #div5 {
+     display: flex;
+ }
+ #div4 {
+   /* background: wheat; */
+   color: #222;
+   margin-left: 5px;
+   padding: 0 4px;
+
+
+ }
+ #btn {
+  background: #c94f17;
+border: none;
+border-radius: 40px;
+color: #fff;
+display: block;
+font-size: 15px;
+line-height: 1.25;
+padding: 10px 10px;
+text-align: center;
+margin-right: 20px;
+height: 40px;
+width: 200px;
+font-weight: bold;
+/* background: #c94f17; */
+
+ }
+ #btn1 {
+     background-color: #c02d28;
+     border: none;
+border-radius: 40px;
+color: #fff;
+display: block;
+font-size: 15px;
+line-height: 1.25;
+padding: 10px 10px;
+text-align: center;
+margin-right: 20px;
+height: 40px;
+width: 170px;
+font-weight: bold;
+ }
+
+
+
+ #btn:hover {
+     background-color: #8a8a8a;
+ }
+ #btn1:hover {
+     background-color: #8a8a8a;
+ }
+ #div:hover #img {
+     opacity: 1;
+ }
+
+ @media all and (max-width:768px) and (min-width:381px){
+#img {
+   position: absolute;
+}
+  #div1 {
+    position: relative;
+    margin-left: 100px;
+    background-color: #000000d0;
+}
+#div {
+  background-color: transparent;
+
+}
+#main h3 {
+  font-size: 25px;
+}
+#p2 {
+  margin-bottom: 15px;
+}
+}
+@media all and (min-width: 50px) and (max-width: 380px) {
+
+  #img {
+   position: absolute;
+   height: 500px;
+}
+  #div1 {
+    position: relative;
+    margin-left: 20px;
+    background-color: #000000d0;
+}
+#div {
+  background-color: transparent;
+  height: 500px;
+
+}
+#main h3 {
+  font-size: 25px;
+}
+#p2 {
+  margin-bottom: 15px;
+}
+#div6 {
+  flex-direction: column;
+  /* text-align: center; */
+}
+#btn1 {
+  margin-top: 15px;
+  width: 200px;
+}
+}    
+
+#js {
+  height: 100px;
+  margin-left: -100px;
+  width: 100px;
+  opacity: .5;
+}
