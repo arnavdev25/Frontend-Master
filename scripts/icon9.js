@@ -54,7 +54,11 @@ const hamburger = document.querySelector(".menu");
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("active");
   });
-
+  const hamburger1  = document.querySelector(" #footer .menu");
+  const navMenu1 = document.querySelector("#footer .mobile");
+  hamburger1.addEventListener("click", function () {
+    navMenu1.classList.toggle("active");
+  });
 var progress1 =[
  {
      img:"https://th.bing.com/th/id/OIP.xQCjgB2DVqhtqGoGw9E6TQHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.41&pid=1.7",

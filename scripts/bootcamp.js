@@ -115,6 +115,11 @@ const hamburger = document.querySelector(".menu");
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("active");
   });
+  const hamburger1  = document.querySelector(" #footer .menu");
+const navMenu1 = document.querySelector("#footer .mobile");
+hamburger1.addEventListener("click", function () {
+  navMenu1.classList.toggle("active");
+});
   function display(data,main){
     data.map(function(el){
         let plus1 = document.createElement("div")

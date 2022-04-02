@@ -119,6 +119,12 @@ const navMenu = document.querySelector(".mobile");
 hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
+document.querySelector("#footer").innerHTML = footer();
+const hamburger1  = document.querySelector(" #footer .menu");
+const navMenu1 = document.querySelector("#footer .mobile");
+hamburger1.addEventListener("click", function () {
+  navMenu1.classList.toggle("active");
+});
 
 var progress1 = [
   {

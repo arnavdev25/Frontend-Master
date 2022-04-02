@@ -64,7 +64,11 @@ const hamburger = document.querySelector(".menu");
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("active");
   });
-
+  const hamburger1  = document.querySelector(" #footer .menu");
+  const navMenu1 = document.querySelector("#footer .mobile");
+  hamburger1.addEventListener("click", function () {
+    navMenu1.classList.toggle("active");
+  });
 var progress1 =[
   {
       img:"https://th.bing.com/th/id/R.6b2018f5c6532f6c29806ef06ffb158d?rik=A1DOk4SIw4rtiw&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2021%2f02%2fCSS-Logo.png&ehk=ON8ObCxBDE%2f%2fZS37%2fZkw9lFVSiR1xOwAcDkS%2bdFm6vc%3d&risl=&pid=ImgRaw&r=0",

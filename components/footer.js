@@ -1,18 +1,47 @@
 function footer() {
-  return ` <div id="footer1">
-    <div class="logo"></div>
-    <div >
-        <ul>
-            <a href="courses.html"><li>Courses</li></a>
-            <a href="learn.html"><li>Learn</li></a>
-            <a href="teacher.html"><li>Teachers</li></a>
-            <a href="grades.html"><li>Guides</li></a>
-            <a href="joinnow.html"><li>Pricing</li></a>
-            <a href="Login.html"><li>Login</li></a>
-            <a href="joinnow.html"><li>Join Now</li></a>
-            <a href="FAQ.html"><li>FAQ</li></a>
-        </ul>
-     </div>
+  return `<div class="wrap">
+  <div class="header-wrap">
+  <div class="left">
+    <div class="logo">
+      <a href="index.html">
+        <img
+          src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg"
+          alt="Front-End"
+        />
+      </a>
+    </div>
+  </div>
+  <div class="right">
+    <ul>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="teacher.html">Taechers</a></li>
+      <li><a href="grades.html">Guides</a></li>
+      <li><a href="joinnow.html">Pricing</a></li>
+      <li><a href="Login.html">Login</a></li>
+      <li><a href="joinnow.html">Join Now</a></li>
+      <li><a href="FAQ.html">FAQ</a></li>
+    </ul>
+  </div>
+  <div class="menu">
+    <div class="icon">
+    <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</div>
+<div class="mobile">
+    <ul>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="learn.html">Learn</a></li>
+    <li><a href="teacher.html">Taechers</a></li>
+    <li><a href="grades.html">Guides</a></li>
+    <li><a href="joinnow.html">Pricing</a></li>
+    <li><a href="Login.html">Login</a></li>
+    <li><a href="joinnow.html">Join Now</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+    </ul>
+  </div>
+
 </div>
 <div id="footer2">
     <div>

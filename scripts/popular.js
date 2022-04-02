@@ -17,7 +17,11 @@ hamburger.addEventListener("click", function () {
 });
 
 
-
+const hamburger1  = document.querySelector(" #footer .menu");
+  const navMenu1 = document.querySelector("#footer .mobile");
+  hamburger1.addEventListener("click", function () {
+    navMenu1.classList.toggle("active");
+  });
 
 function display(data,main){
     console.log(data)
