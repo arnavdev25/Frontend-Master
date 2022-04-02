@@ -61,10 +61,11 @@ function display(data, main) {
     div6.setAttribute("id", "div6");
     div1.append(h3, div2, p1, div5, div6);
     div.append(img, div1);
-    img.addEventListener("click", function () {
-      window.location.href = "display.html";
+    div.addEventListener("click", function () {
+      window.location.href = "displaydata.html";
       let displayArr = [];
       displayArr.push(el);
+      localStorage.setItem("displaydata",JSON.stringify(displayArr))
     });
 
     btn1.addEventListener("click", function () {
@@ -74,6 +75,7 @@ function display(data, main) {
     main.append(line, plus1, box, div);
     plus1.addEventListener("click", function () {
       box.style.display = "block";
+      line.style.height="560px"
     });
   });
 }
