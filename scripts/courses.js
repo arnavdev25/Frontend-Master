@@ -145,23 +145,23 @@ const append = (data, parent)=>{
     })
 }
 
-function search(data, inputValue, body) {
+function search(data, inputValue) {
 
-     let link1 = document.querySelectorAll(".popularmin");
+    //  let link1 = document.querySelectorAll(".popularmin");
     // link1.innerHTML = null;
   // link1.remove();     
     var searchText = inputValue.value.toLowerCase();
-     let link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = `./styles/popular.css`;
-    link.className = "popular";
+    //  let link = document.createElement("link");
+    // link.rel = "stylesheet";
+    // link.href = `./styles/popular.css`;
+    // link.className = "popular";
     
    
 
-    body.append(link);
-    console.log("link:", link);
+    // body.append(link);
+    // console.log("link:", link);
    
-    console.log(searchText);
+    // console.log(searchText);
     var filterData = data.filter(function (item) {
       var elem = item.title.toLowerCase();
       return elem.includes(searchText);
@@ -197,83 +197,84 @@ main.innerHTML = null;
 
     data.map(function(el){
         let div = document.createElement("div");
-        div.setAttribute("id","div")
+        div.setAttribute("id","dispaly_div")
 
 
 
 
         let mainDiv = document.createElement("div");
-        mainDiv.setAttribute("id","mainDiv")
+        mainDiv.setAttribute("id","display_mainDiv")
 
         let img = document.createElement("img")
       img.src = el.course_img_url;
-        img.setAttribute("id","img")
+        img.setAttribute("id","display_img")
 
         let img1 = document.createElement("img")
       img1.src = el.instructor_img_url;
-        img1.setAttribute("id","img1")
+        img1.setAttribute("id","display_img1")
 
         let title = document.createElement("h1")
       title.innerText = el.title;
+      title.id = "display_title";
 
         let titleDiv =document.createElement('div')
-        titleDiv.id = "titleDiv"
+        titleDiv.id = "display_titleDiv"
         titleDiv.append(title)
 
         let nam = document.createElement("p");
       nam.innerText = el.instructorName;
-        nam.id = "p"
+        nam.id = "display_p"
         
         let nameDiv = document.createElement("div")
         nameDiv.setAttribute("id","nameDiv")
         
         let org = document.createElement("p");
       org.innerText = el.org;
-        org.id = "p1"
+        org.id = "display_p1"
 
         nameDiv.append(nam,org)
 
         let outerDiv = document.createElement("div")
-        outerDiv.setAttribute("id","outerDiv")
+        outerDiv.setAttribute("id","display_outerDiv")
         outerDiv.append(img1,nameDiv)
         outerDiv.style.display="flex"
     
         let description = document.createElement("p");
       description.innerText = el.course_description;
-        description.setAttribute("id","description")
+        description.setAttribute("id","display_description")
         description.setAttribute("id","desc")
 
         let descDiv =document.createElement('div')
-         descDiv.id = "descDiv"
+         descDiv.id = "display_descDiv"
          descDiv.append(description)
 
         let time = document.createElement("p");
       time.innerText = el.time;
-        time.setAttribute("id","time")
+        time.setAttribute("id","display)time")
 
         let timeDiv =document.createElement('div')
-        timeDiv.setAttribute("id","timeDiv")
+        timeDiv.setAttribute("id","display_timeDiv")
         timeDiv.append(time)
 
         let CC = document.createElement("div")
         CC.innerText="CC"
-        CC.setAttribute("id","CC")
+        CC.setAttribute("id","display_CC")
 
         let outerDiv2= document.createElement("div")
         outerDiv2.append(timeDiv,CC)
-        outerDiv2.setAttribute("id","outerDiv2")
+        outerDiv2.setAttribute("id","display_outerDiv2")
         outerDiv2.style.display="flex"
 
         let btn = document.createElement("button")
         btn.innerText="Watch Free Preview"
         let btn1 = document.createElement("button")
         btn1.innerText="Get Full Access"
-        btn.setAttribute("id","btn")
-        btn1.setAttribute("id","btn1")
+        btn.setAttribute("id","display_btn")
+        btn1.setAttribute("id","display_btn1")
         let btnDiv = document.createElement("div")
         btnDiv.append(btn,btn1)
         btnDiv.style.display="flex"
-        btnDiv.setAttribute("id","btnDiv")
+        btnDiv.setAttribute("id","display_btnDiv")
 
        mainDiv.append(titleDiv,outerDiv,descDiv,outerDiv2,btnDiv)
        div.append(img,mainDiv)
