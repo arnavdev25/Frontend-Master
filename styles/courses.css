@@ -130,6 +130,12 @@
   width: 48%;
   position: relative;
 }
+.media-item.full-width {
+  width: 100%;
+}
+.media-item.full-width .inner {
+  padding-left: 366px;
+}
 .inner {
   background: #181818;
   color: #e6e6e6;
@@ -178,6 +184,10 @@
   font-size: 27px;
   color: #dd625e;
   font-weight: 400;
+  cursor: pointer;
+}
+.details h2:hover {
+  color: #e58480;
 }
 .instructor {
   display: flex;

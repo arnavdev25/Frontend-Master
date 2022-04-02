@@ -1,13 +1,13 @@
 const courses = () => {
   return `<div class="course-head">
-    <h1>Frontend Masters Courses</h1>
+    <h1 id="course_title">Frontend Masters Courses</h1>
     <input id="search" type="search" placeholder="Type to search..." />
   </div>
   <div class="course-filter">
     <div class="nav-filter">
-      <ul>
-        <li class="active"><a href="#">All Courses</a></li>
-        <li><a href="#">Popular Courses</a></li>
+      <ul id="nav">
+        <li id="all_course" class="active"><a href="#">All Courses</a></li>
+        <li id="popular_course"><a href="#">Popular Courses</a></li>
         <li><a href="learn.html">Learning Paths</a></li>
       </ul>
     </div>

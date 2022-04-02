@@ -54,6 +54,11 @@ const appendCourses = (data) => {
     let title = getElem("h2", "");
     title.innerText = el.title;
 
+    title.addEventListener("click", () => {
+      localStorage.setItem("single_course", JSON.stringify(el));
+      window.location.href = "single-course.html";
+    });
+
     let instructor = getElem("div", "instructor");
 
     let i_left = getElem("div", "i-left");
@@ -92,8 +97,18 @@ const appendCourses = (data) => {
     let free_btn = getElem("button", "free");
     free_btn.innerText = "Watch Free Preview";
 
+    free_btn.addEventListener("click", () => {
+      localStorage.setItem("single_course", JSON.stringify(el));
+      window.location.href = "single-course.html";
+    });
+
     let full_access_btn = getElem("button", "full-access");
     full_access_btn.innerText = "Get Full Access";
+
+    full_access_btn.addEventListener("click", () => {
+      localStorage.setItem("single_course", JSON.stringify(el));
+      window.location.href = "joinnow.html";
+    });
 
     options.append(free_btn, full_access_btn);
 
@@ -105,7 +120,7 @@ const appendCourses = (data) => {
   });
 };
 
-// appendCourses(all_courses);
+appendCourses(all_courses);
 let compactBtn = document.querySelector(".compact");
 let expandBtn = document.querySelector(".expand");
 
@@ -138,4 +153,39 @@ search_input.addEventListener("input", () => {
   });
   //   console.log(filterData);
   appendCourses(filterData);
+});
+
+let li = document.querySelectorAll("#nav>li");
+
+const changeNav = (item) => {
+  li.forEach((el) => {
+    el.classList.remove("active");
+  });
+  item.classList.add("active");
+};
+
+li.forEach((item) => {
+  item.addEventListener("click", () => {
+    changeNav(item);
+  });
+});
+
+let all_course_nav = document.getElementById("all_course");
+let popular_course = document.getElementById("popular_course");
+let course_title = document.getElementById("course_title");
+all_course_nav.addEventListener("click", () => {
+  course_title.innerText = "Frontend Masters Courses";
+  appendCourses(all_courses);
+});
+popular_course.addEventListener("click", () => {
+  let popular_course_data = all_courses.filter((el) => {
+    return el.popular == true;
+  });
+  // console.log(popular_course_data);
+  course_title.innerText = "Popular Courses";
+  appendCourses(popular_course_data);
+  let media_items = document.querySelectorAll(".media-item");
+  media_items.forEach((el) => {
+    el.classList.add("full-width");
+  });
 });
