@@ -10,6 +10,9 @@ var icon1arr = [
     time: "8 hours, 11 minutes ",
     head1: "Editor's Notes",
     de: "A practical introduction to JavaScript and an overview of the language, Bianca covers what you need to know to be competent at writing JavaScript.",
+   src:"https://www.youtube.com/embed/_y9oxzTGERs",
+   d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+  
   },
   {
     img: "https://static.frontendmasters.com/assets/courses/2020-01-07-javascript-hard-parts-v2/thumb.webp",
