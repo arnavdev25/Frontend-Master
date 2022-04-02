@@ -50,7 +50,7 @@
   /* justify-content: space-between; */
 }
 #line {
-  height: 535px;
+  height: 470px;
   /* max-height: 560px; */
   /* max-height: 500px; */
   /* max-height: 580px; */
@@ -346,6 +346,7 @@ h4 {
     /* background-color:white; */
     height: 700px;
     max-height:800px;
+    display: none;
   }
 }
 

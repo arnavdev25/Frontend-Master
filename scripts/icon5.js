@@ -7,7 +7,10 @@ var icon5arr = [
        com: "Netlify",
        des:"Learn fundamental concepts in Vue, such as directives, methods, and computed watchers. You’ll learn Vue’s reactivity system and the new Composition API in Vue 3.",
        time:"4 hours, 57 minutes",
-       de:"Get a dynamic and fun introduction to Vue from Sarah Drasner!"
+       de:"Get a dynamic and fun introduction to Vue from Sarah Drasner!",
+       src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
     },
     {
         img:"https://static.frontendmasters.com/assets/courses/2020-10-27-vue-nuxt-apps/thumb.webp",
@@ -17,7 +20,10 @@ var icon5arr = [
        com: "Netlify",
        des:"Learn fundamental concepts in Vue, such as directives, methods, and computed watchers. You’ll learn Vue’s reactivity system and the new Composition API in Vue 3.",
        time:"3 hours, 37 minutes",
-       de:"Learn how to build a variety of applications in the real world."
+       de:"Learn how to build a variety of applications in the real world.",
+       src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
     
     },
     {
@@ -28,7 +34,10 @@ var icon5arr = [
         com:"Netlify",
         des:"Learn component design patterns, workflows to enhance productivity, testing methodologies, state management, routing, best practices for architecting increasingly complex applications, and more.",
         time:"4 hours, 37 minutes",
-        de:"Learn best practices in order to build Vue.js apps that can scale and grow!"
+        de:"Learn best practices in order to build Vue.js apps that can scale and grow!",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
     }
 ]
 

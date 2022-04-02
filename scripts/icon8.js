@@ -7,7 +7,10 @@ var icon8arr = [
         com:"Data Sketches",
         des:"Build cu charts with D3.js using data binding with the enter-update-exit pattern. You'll learn scales and to animate between different D3 layouts for building truly interactive charts.",
         time:"5 hours, 59 minutes",
-        de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch."
+        de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch.",
+        src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+        d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+   
     },
     {
         img:"https://static.frontendmasters.com/assets/courses/2018-09-11-d3-js-custom-charts/thumb.webp",
@@ -17,7 +20,10 @@ var icon8arr = [
         com:"Data Sketches",
         des:"Learn the visualization principles and process for building custom advanced data visualizations with D3.js and SVG with S,hirley Wu.",
         time:"4 hours, 24 minutes ",
-        de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch."
+        de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch.",
+        src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+        d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+   
     },
     {
         img:"https://static.frontendmasters.com/assets/courses/2019-01-14-svg-essentials-animation/thumb.webp",
@@ -27,7 +33,10 @@ var icon8arr = [
        com: "Netlify",
        des:"Build and optimize SVG – the scalable graphics format for the web that can achieve impressively small filesizes for fast-loading websites!",
        time:"4 hours, 12 minutes CC",
-       de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch."
+       de:"This custom data visualization course walks you through the entire process, from start to design to developing a visualization from scratch.",
+       src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+       d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+  
     }
 ]
 

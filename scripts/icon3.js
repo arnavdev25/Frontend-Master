@@ -8,8 +8,11 @@ var icon3arr =[
         des:"TypeScript adds a powerful type system on top of your JavaScript to catch bugs before they happen and provide a superior developer experience for collaborative teams.",
         time:"4 hours, 27 minutes",
         head1:"Editor's Notes",
-        de:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable."
-    },
+        de:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable.",
+        src:"https://www.youtube.com/watch?v=gp5H0Vw39yw",
+        d:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable. Learn key Typescript features such as typing variables and function signatures, abstract classes, interfaces, enums, and more – these features increase your ability to fix errors fast. Learn how to migrate your codebase to TypeScript the smart way and improve productivity while building large-scale TypeScript applications with ease!"
+
+      },
     {
         img:"https://static.frontendmasters.com/assets/courses/2021-08-04-intermediate-typescript/thumb.webp",
         name:"Intermediate TypeScript",
@@ -19,7 +22,10 @@ var icon3arr =[
         des:"TypeScript adds a powerful type system on top of your JavaScript to catch bugs before they happen and provide a superior developer experience for collaborative teams.",
         time:"2 hours, 48 minutes",
         de:"Grow from being a contributor to a TypeScript codebase to being on the path to becoming “the TypeScript expert” for your team",
-        head1:"Editor's Notes"
+        head1:"Editor's Notes",
+        src:"https://youtu.be/82XE1X0Xblo",
+        d:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable. Learn key Typescript features such as typing variables and function signatures, abstract classes, interfaces, enums, and more – these features increase your ability to fix errors fast. Learn how to migrate your codebase to TypeScript the smart way and improve productivity while building large-scale TypeScript applications with ease!"
+
 
     },
     {
@@ -31,7 +37,10 @@ var icon3arr =[
         des:"Use the TypeScript language at scale to increase the developer experience and productivity of your teams! You’ll learn to manage even the most ambitious TypeScript projects with confidence and ease.",
         time:"5 hours, 10 minute",
         head1:"Editor's Notes",
-        de:"Grow from being a contributor to a TypeScript codebase to being on the path to becoming “the TypeScript expert” for your team."
+        de:"Grow from being a contributor to a TypeScript codebase to being on the path to becoming “the TypeScript expert” for your team.",
+        src:"https://youtu.be/82XE1X0Xblo",
+        d:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable. Learn key Typescript features such as typing variables and function signatures, abstract classes, interfaces, enums, and more – these features increase your ability to fix errors fast. Learn how to migrate your codebase to TypeScript the smart way and improve productivity while building large-scale TypeScript applications with ease!"
+
 
     },
     {
@@ -44,7 +53,10 @@ var icon3arr =[
         des:"Use React APIs to manage state in class-based components, and in React hooks. Create custom hooks, use reducers, add routing, and then learn ways to do more complicated state management techniques such as using the Context API.",
         time:"4 hours, 27 minutes",
         head1:"Editor's Notes",
-       de:"Learn to manage even the most ambitious TypeScript projects with confidence and ease."
+       de:"Learn to manage even the most ambitious TypeScript projects with confidence and ease.",
+        src:"https://youtu.be/82XE1X0Xblo",
+       d:"Use TypeScript to add strong typing to large JavaScript apps helps reduce bugs and keeps code performant and maintainable. Learn key Typescript features such as typing variables and function signatures, abstract classes, interfaces, enums, and more – these features increase your ability to fix errors fast. Learn how to migrate your codebase to TypeScript the smart way and improve productivity while building large-scale TypeScript applications with ease!"
+
      }
 ]
 let main=document.getElementById("main")

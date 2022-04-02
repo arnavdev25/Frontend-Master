@@ -7,7 +7,10 @@ var icon6arr =[
         com:"Venmo",
         des:"Learn Angular through building an app with real-world features! We start off using the Angular CLI to get set up quickly. Then we'll move on to Angular core concepts like components, templates, routing, forms, server-side communicati,on, and more.",
         time:"6 hours, 52 minutes",
-        de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!"
+        de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
     },
     {
         img:"https://static.frontendmasters.com/assets/courses/2021-08-03-typescript-v3/thumb.webp",
@@ -17,7 +20,10 @@ var icon6arr =[
        com: "LinkedIn",
        des:"TypeScript adds a powerful type system on top of your JavaScript to catch bugs before they happen and provide a superior developer experience for collaborative team",
        time:"4 hours, 27 minutes",
-       de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!"
+       de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!",
+       src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
     },
     {
@@ -28,7 +34,10 @@ var icon6arr =[
         com:"Venmo",
         des:"Learn how to structure your projects leveraging Angular CLI and Nx. Create shared modules and apply unit tests and end-to-end testing. Analyze performance and ship your app to production using Docker.",
         time:"6 hours, 57 minutes",
-        de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!"
+        de:"Angular incorporates many of the industry’s best ideas and tooling into one powerful framework!",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
     }
 ]

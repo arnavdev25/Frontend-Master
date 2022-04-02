@@ -89,6 +89,9 @@ width: 100px;
 
 /*  background-color: orange; */
 }
+body {
+    background-color: #222;
+}
 #grid h1 {
 font-size: 46px;
 }
@@ -98,6 +101,9 @@ font-weight: 400;
 }
 
 
+#sv {
+    display: flex;
+}
 #main {
     /* display: flex; */
     margin-left: 20px;
@@ -347,6 +353,7 @@ font-weight: bold;
     background: chocolate;
 }
  @media all and (max-width:768px) and (min-width:381px){
+    
 #img {
    position: absolute;
    height: 500px;
@@ -379,7 +386,9 @@ font-weight: bold;
 }
 }
 @media all and (min-width: 50px) and (max-width: 380px) {
-
+    #bootcamp{
+        height: 1000px;
+    }
   #img {
    position: absolute;
    height: 650px;

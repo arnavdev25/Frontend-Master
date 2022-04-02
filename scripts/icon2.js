@@ -8,7 +8,11 @@ var icon2arr =[
        des:"Much more than an intro, you’ll build with the latest features in React, including hooks, effects, context, and portals. Learn to build real-world apps from the ground up using the latest tools in the React ecosystem, like Parcel, ESLint, Prettier, and React Router!",
        time:"5 hours, 41 minute",
        head1:"Editor's Notes",
-       de:"Learn to build an entire real-world, modern application from scratch in today’s tools!"
+       de:"Learn to build an entire real-world, modern application from scratch in today’s tools!",
+       src:"https://www.youtube.com/watch?v=Ke90Tje7VS0",
+      d:"Learn to build real-world applications using modern React! Much more than an intro, you’ll start from the ground up, getting to using the latest features in React, including hooks, effects, context, and portals. Throughout the course, you’ll piece together tools from the entire React ecosystem (like Parcel, ESLint, Prettier, and React Router) to build a complete application to browse adoptable pets!"
+ 
+
     },
     {
         img:"https://static.frontendmasters.com/assets/courses/2021-05-04-intermediate-react-v3/thumb.webp",
@@ -19,8 +23,12 @@ var icon2arr =[
         des:"Build scalable React applications while learning React hooks in-depth, CSS-in-JS with TailwindCSS, increase performance with code splitting and server-side rendering, add TypeScript, state management with Redux, test your app with Jest …and more!",
         time:"6 hours, 7 minutes ",
         head1:"Editor's Notes",
-        de:"Learn the tools in the surrounding React ecosystem."
-    },
+        de:"Learn the tools in the surrounding React ecosystem.",
+        src:"https://www.youtube.com/watch?v=Ke90Tje7VS0",
+        d:"Learn to build real-world applications using modern React! Much more than an intro, you’ll start from the ground up, getting to using the latest features in React, including hooks, effects, context, and portals. Throughout the course, you’ll piece together tools from the entire React ecosystem (like Parcel, ESLint, Prettier, and React Router) to build a complete application to browse adoptable pets!"
+   
+   
+      },
     {
         img:"https://static.frontendmasters.com/assets/courses/2020-02-14-pure-react-state/thumb.webp",
         name:"State Management in Pure React, v2",
@@ -30,7 +38,10 @@ var icon2arr =[
        des:"Use React APIs to manage state in class-based components, and in React hooks. Create custom hooks, use reducers, add routing, and then learn ways to do more complicated state management techniques such as using the Context API.",
        time:"4 hours, 27 minutes",
        head1:"Editor's Notes",
-       de:"Learn patterns for managing state throughout your React application."
+       de:"Learn patterns for managing state throughout your React application.",
+       src:"https://www.youtube.com/watch?v=Ke90Tje7VS0",
+       d:"Learn to build real-world applications using modern React! Much more than an intro, you’ll start from the ground up, getting to using the latest features in React, including hooks, effects, context, and portals. Throughout the course, you’ll piece together tools from the entire React ecosystem (like Parcel, ESLint, Prettier, and React Router) to build a complete application to browse adoptable pets!"
+  
 
     },
     {
@@ -42,7 +53,10 @@ var icon2arr =[
        des:"Ship React apps with more code confidence using TypeScript! Migrate your app to TypeScript, type simple and advanced React components, and learn all types shipped with React for writing React with TypeScript.",
        time:"5 hours, 3 minutes",
        head1:"Editor's Notes",
-      de:"Learn patterns for managing state throughout your React application."
+      de:"Learn patterns for managing state throughout your React application.",
+      src:"https://www.youtube.com/watch?v=Ke90Tje7VS0",
+      d:"Learn to build real-world applications using modern React! Much more than an intro, you’ll start from the ground up, getting to using the latest features in React, including hooks, effects, context, and portals. Throughout the course, you’ll piece together tools from the entire React ecosystem (like Parcel, ESLint, Prettier, and React Router) to build a complete application to browse adoptable pets!"
+ 
 
     }
 ]

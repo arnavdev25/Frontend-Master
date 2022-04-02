@@ -8,7 +8,10 @@ var icon4arr =[
         des:"Transfer your JavaScript skills to the server-side and level up to a full-stack engineer! By learning the foundations of Node.js, you’ll be able to do a lot more with JavaScript, like creating command-line interfaces and APIs, and interacting with the file system.",
         time:"4 hours, 51 minutes",
         head1:"Editor's Notes",
-        de:"Go under the hood of Node.js and gain a mental model of how writing JavaScript on the server with Node.js works."
+        de:"Go under the hood of Node.js and gain a mental model of how writing JavaScript on the server with Node.js works.",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
     },
     {
@@ -20,7 +23,10 @@ var icon4arr =[
         des:"Uncover the most challenging, yet most powerful features in Node.js, to help you write and debug professional server code.",
         time:"5 hours, 16 minutes",
         head1:"Editor's Notes",
-        de:"Get the deep fundamental concepts of Node.js with Kyle Simpson, author of the ‘You Don’t Know JS’ Bo"
+        de:"Get the deep fundamental concepts of Node.js with Kyle Simpson, author of the ‘You Don’t Know JS’ Bo",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
     },
     {
@@ -33,7 +39,10 @@ var icon4arr =[
         des:"Learn the fundamental concepts of programming in Node.js: CLI programming, file system access, asynchrony, streams, HTTP servers & routing, database persistence, and child processes.",
         time:"4 hours, 0 minute",
         head1:"Editor's Notes",
-        de:"Building APIs is the foundation of any back-end application."
+        de:"Building APIs is the foundation of any back-end application.",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
     },
     {
@@ -45,7 +54,10 @@ var icon4arr =[
         des:"Use Express to build a REST API in Node.js – handle REST API verb methods to create, read, update and delete resources from a MongoDB database.",
         time:"3 hours, 34 minutes",
         head1:"Editor's Notes",
-        de:"GraphQL is the new standard for building flexible APIs."
+        de:"GraphQL is the new standard for building flexible APIs.",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
 
         
     },
@@ -58,7 +70,10 @@ var icon4arr =[
         des:"Transfer your JavaScript skills to the server-side and level up to a full-stack engineer! By learning the foundations of Node.js, you’ll be able to do a lot more with JavaScript, like creating command-line interfaces and APIs, and interacting with the file system.",
         time:"4 hours, 51 minutes",
         head1:"Editor's Notes",
-        de:"Jem teaches you the essentials for setting up and launching servers in a two-part series."
+        de:"Jem teaches you the essentials for setting up and launching servers in a two-part series.",
+        src:"https://www.youtube.com/embed/_y9oxzTGERs",
+    d:"A deep dive into JavaScript and functional programming techniques, this course is for beginner to intermediate JavaScript developers who want to learn techniques to write professional, modern JavaScript. In this course, Bianca cuts through the technical jargon to reveal the core concepts of JavaScript and applying functional programming techniques to JavaScript. Learn higher-order functions, closures, scope and the fundamentals necessary to use modern frameworks like React, Angular and Vue. You'll master key functional methods like map, reduce and filter ...plus promises and ES6+ asynchronous JavaScript!"
+   
     
     }
 ]

@@ -7,8 +7,11 @@ var icon7arr = [
         com:"Freelance Instructor",
         des:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course!",
         time:"3 hours, 19 minutes",
-        de:"Use CSS to layout and visually style web pages so you’re websites aren’t just functional, but they look nice as well!"
-    },
+        de:"Use CSS to layout and visually style web pages so you’re websites aren’t just functional, but they look nice as well!",
+        src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+        d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+   
+      },
     {
         img:"https://static.frontendmasters.com/assets/courses/2021-10-26-css-grid-flexbox-v2/thumb.webp",
         name:"CSS Grid & Flexbox for Responsive Layouts, v2",
@@ -17,8 +20,11 @@ var icon7arr = [
         com:"Freelance Instructor",
         des:"Learn the essential CSS layout techniques for building responsive, beautiful websites. You'll use CSS Grid and Flexbox along with responsive images to build out real-world web layouts!",
         time:"5 hours, 49 minutes",
-        de:"The most essential tools to bring your designs to life are modern CSS layout tools such as Flexbox and CSS Grid."
-    },
+        de:"The most essential tools to bring your designs to life are modern CSS layout tools such as Flexbox and CSS Grid.",
+        src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+        d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+   
+      },
     {
         img:"https://static.frontendmasters.com/assets/courses/2019-01-14-svg-essentials-animation/thumb.webp",
         name:"SVG Essentials & Animation, v2",
@@ -27,7 +33,10 @@ var icon7arr = [
        com: "Netlify",
        des:"Build and optimize SVG – the scalable graphics format for the web that can achieve impressively small filesizes for fast-loading websites!",
        time:"4 hours, 12 minutes",
-       de:"Use CSS to layout and visually style web pages so you’re websites aren’t just functional, but they look nice as well!"
+       de:"Use CSS to layout and visually style web pages so you’re websites aren’t just functional, but they look nice as well!",
+       src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+       d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+  
 
     },
     {
@@ -38,7 +47,10 @@ var icon7arr = [
         com:"Freelance Instructor",
         des:"Flexbox and Grid provide methods for creating responsive websites with designs not previously possible. Combined with CSS Calc & Custom Properties, they revolutionize the way we lay out web pages with CSS!",
         time:"3 hours, 46 minutes",
-        de:"The most essential tools to bring your designs to life are modern CSS layout tools such as Flexbox and CSS Grid."
+        de:"The most essential tools to bring your designs to life are modern CSS layout tools such as Flexbox and CSS Grid.",
+        src:"https://www.youtube.com/embed/6vbgZnQrpbU",
+        d:"Get to know CSS in the right way without the fluff. You'll style text, build navigation bars, headers/footers, add icons, and more. You'll even build a professional portfolio website by the end of the course! This course and others like it are available as part of our Frontend Masters video subscription."
+   
     }
 ]
 
