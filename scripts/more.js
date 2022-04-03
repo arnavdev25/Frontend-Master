@@ -1,4 +1,4 @@
-let arr=[]
+let arr=JSON.parse(localStorage.getItem("login_data")) || []
           
 //    document.querySelector("#terms").addEventListener("click",submitfun)
   function submitfun(event){ 
@@ -8,11 +8,11 @@ let arr=[]
    let password= document.querySelector("#password").value
    let passagain= document.querySelector("#password_again").value
       event.preventDefault(event)
-      console.log("hello",Email) 
+      // console.log("hello",Email) 
       
       
-      if(password==passagain){
-          console.log(password,passagain)
+      if(password==passagain && password.length>=8 && Email !== "" && firstname !== "" && lastname!==""){
+          // console.log(password,passagain)
           obj={
               Email:Email,
               firstname:firstname,
@@ -22,16 +22,16 @@ let arr=[]
 
           }
               arr.push(obj)
-              localStorage.setItem("more",JSON.stringify(arr))
+              localStorage.setItem("login_data",JSON.stringify(arr))
+              window.location.href="./bootcamp.html"
+
       }
       else{
-          alert("please insert correct password")
+          alert("Fill Correct Details")
           
           
       }
-      if(arr.length>0){
-        window.location.href=("https://frontendmasters.com/bootcamp/")
-          }
-      console.log(arr)
+      
+      // console.log(arr)
      
   }

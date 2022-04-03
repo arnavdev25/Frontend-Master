@@ -1,25 +1,11 @@
 #footer {
-  height: 300px;
+  /* height: 300px; */
   width: 100%;
   background-color: black;
   padding: 35px;
   box-sizing: border-box;
 }
-#footer #footer1 {
-  display: flex;
-  margin-left: 30px;
-}
-#footer #footer1 ul {
-  list-style-type: none;
-  float: left;
-  display: flex;
-  margin-top: 18px;
-  margin-left: 50px;
-}
-#footer #footer1 ul li {
-  width: auto;
-  margin-left: 25px;
-}
+
 #footer a {
   text-decoration: none;
   color: rgb(177, 165, 165);
@@ -64,13 +50,24 @@
   margin-right: 10px;
   /* border-radius: 10%; */
 }
+ #footer  .right ul li:last-child {
+  background-color: transparent;
+  /* border-radius: 40px; */
+  /* transition: background 0.2s ease; */
+  margin-left: 0px;
+  /* background-color: white; */
+}
+.right ul li:last-child a {
+  line-height: 40px;
+  padding: 0px 4px;
+  font-size: 17px;
+  color: #fff;
+}
+.right ul li:last-child:hover {
+  background: #d43530;
+}
 @media all and (max-width: 768px) and (min-width: 381px) {
-  #footer #footer1 {
-    flex-direction: column;
-  }
-  #footer #footer1 ul {
-    margin-left: -20px;
-  }
+  
   #footer #footer2 #apple {
     margin-top: 10px;
   }
@@ -78,8 +75,11 @@
   #footer #footer4 {
     flex-direction: column;
   }
+  #footer .right {
+    margin-top: 15px;
+  }
   #footer {
-    height: 400px;
+    /* height: 400px; */
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -91,14 +91,7 @@
   }
 }
 @media all and (min-width: 50px) and (max-width: 380px) {
-  #footer #footer1 {
-    flex-direction: column;
-  }
-  #footer #footer1 ul {
-    /* margin-left:-20px;
-         */
-    display: none;
-  }
+ 
   #footer #footer2 #apple {
     margin-top: 10px;
   }
@@ -107,10 +100,11 @@
   #footer #footer2 {
     flex-direction: column;
   }
+  
   #footer {
-    height: 500px;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* height: 500px; */
+    padding-left: 5px;
+    padding-right: 5px;
   }
   #footer #footer3 > div:last-child {
     margin-top: 20px;
@@ -118,4 +112,16 @@
   #footer #footer4 > p:last-child {
     margin-top: 20px;
   }
+ .mobile .active {
+    display: block;
+  }
+ #footer .mobile ul li:last-child {
+    background-color: transparent;
+    /* border-radius: 40px; */
+    /* transition: background 0.2s ease; */
+    margin-top: -10px;
+    text-align: left;
+    margin-left: -2px;
+  }
+  
 }

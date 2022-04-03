@@ -12,6 +12,21 @@ const navMenu = document.querySelector(".mobile");
 hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
+const hamburger1  = document.querySelector(" #footer .menu");
+const navMenu1 = document.querySelector("#footer .mobile");
+hamburger1.addEventListener("click", function () {
+  navMenu1.classList.toggle("active");
+});
+
+const logout = () => {
+  window.location.href = "index.html";
+  localStorage.removeItem("logged_user");
+};
+// For logout
+let logout_btn = document.getElementById("logout");
+if (logout_btn) {
+  logout_btn.addEventListener("click", logout);
+}
 
 // Slider Container
 let slider_con = document.querySelector(".slider-container");
@@ -76,10 +91,10 @@ prev.addEventListener("click", prevItem);
 next.addEventListener("click", nextItem);
 
 // On window resizing Event
-// let resizeTimeout;
-// window.addEventListener("resize", function (event) {
-//   clearTimeout(resizeTimeout);
-//   resizeTimeout = setTimeout(function () {
-//     window.location.reload();
-//   }, 1500);
-// });
+let resizeTimeout;
+window.addEventListener("resize", function (event) {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(function () {
+    window.location.reload();
+  }, 1500);
+});

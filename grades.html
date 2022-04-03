@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/nav.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
 </head>
 <style>
     body{
@@ -20,7 +22,7 @@
         margin-bottom: 20px;
     }
     #name{
-        height:50px;
+        /* height:50px; */
         width:400px;
         /* border:2px solid blue; */
         color: white;
@@ -30,6 +32,7 @@
         margin-left: 80px;
         color: #e6e6e6;
         margin-bottom: 15px;
+        margin-top: 20px;
     }
     #image{
         display:grid;
@@ -41,6 +44,7 @@
         width: 90%;
         /* margin-left: 80px; */
         margin: auto;
+        margin-top: 20px;
         
         
     }
@@ -123,6 +127,11 @@ const hamburger = document.querySelector(".menu");
   const navMenu = document.querySelector(".mobile");
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("active");
+  });
+  const hamburger1  = document.querySelector(" #footer .menu");
+  const navMenu1 = document.querySelector("#footer .mobile");
+  hamburger1.addEventListener("click", function () {
+    navMenu1.classList.toggle("active");
   });
 
 </script>

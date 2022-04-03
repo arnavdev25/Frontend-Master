@@ -170,13 +170,13 @@
   .slide {
     grid-template-columns: repeat(1, 230px);
   }
-  
+
   .slider-box {
     background-color: #fff;
     border-radius: 7px;
     padding: 16px;
   }
-  
+
   .slider-box-top {
     display: flex;
     align-items: flex-start;
@@ -194,7 +194,7 @@
     width: 100%;
     object-fit: contain;
   }
-  
+
   .user .profile-name {
     font-size: 16px;
     font-weight: 600;
@@ -206,18 +206,18 @@
     text-decoration: underline;
     cursor: pointer;
   }
-  
+
   .user .user-name {
     color: #8a8a8a;
     font-size: 14px;
   }
-  
+
   .twit-icon {
     margin-left: auto;
     color: #1da1f2;
     font-size: 21px;
   }
-  
+
   .slider-box-mid {
     line-height: 1.4;
     font-size: 17px;
@@ -225,14 +225,14 @@
     margin-bottom: 10px;
     letter-spacing: 0.5px;
   }
-  
+
   .slider-box-bottom {
     border-top: 1px solid #ccc;
     font-size: 14px;
     padding-top: 10px;
     color: #8a8a8a;
   }
-  
+
   /* Screen */
   /*  Mid Desktop screens */
   @media only screen and (min-width: 1030px) and (max-width: 1330px) {
@@ -243,9 +243,9 @@
       grid-template-columns: repeat(3, 265px);
     }
   }
-  
+
   /* Tablet Screen */
-  @media only screen and (min-width: 770px) and (max-width:1029px) {
+  @media only screen and (min-width: 770px) and (max-width: 1029px) {
     .slider {
       max-width: 576px;
     }
@@ -253,7 +253,7 @@
       grid-template-columns: repeat(2, 260px);
     }
   }
-  
+
   /* Small Screen */
   @media only screen and (min-width: 0px) and (max-width: 769px) {
     .s-top {
@@ -272,3 +272,4 @@
       grid-template-columns: repeat(1, 230px);
     }
   }
+}
