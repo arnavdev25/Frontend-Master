@@ -10,6 +10,8 @@ Technologies: HTML,CSS,Advanced JavaScript,Bootstrap,Carousel,Circle Progress,Im
 
 Setup : To run this website simply open it in browser , and you will get access to this website.
 
+Blog Link: https://medium.com/@princesahil0065/frontend-masters-website-project-61079c9773d3
+
 
 
 
