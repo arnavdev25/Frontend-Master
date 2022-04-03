@@ -157,6 +157,17 @@ search_input.addEventListener("input", () => {
     return el.title.toLowerCase().includes(input.toLowerCase());
   });
   //   console.log(filterData);
+  if(filterData.length ==0){
+   let h1 = getElem("h1","")
+    h1.innerText="No Results Found"
+    h1.style.color="#fff";
+    // h1.style.fontSize="30px";
+    // console.log(h1)
+    all_course_conatiner.innerHTML = null
+    all_course_conatiner.append(h1)
+    // console.log(all_course_conatiner)
+    return;
+  }
   appendCourses(filterData);
 });
 

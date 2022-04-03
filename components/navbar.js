@@ -19,7 +19,7 @@ function navbar() {
       <li><a href="dashboard.html">Home</a></li>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="learn.html">Learn</a></li>
-      <li><a href="bootcamp.html">Workshops</a></li>
+      <li><a href="bootcamp.html">Bootcamp</a></li>
       <li><a href="account.html">My Account</a></li>
       <li class="logout"><a id="logout" href="#index.html">Log Out(${
         logged_user.fn
@@ -37,7 +37,7 @@ function navbar() {
         <li><a href="dashboard.html">Home</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="learn.html">Learn</a></li>
-        <li><a href="bootcamp.html">Workshops</a></li>
+        <li><a href="bootcamp.html">Bootcamp</a></li>
         <li><a href="account.html">My Account</a></li>
         <li class="logout"><a id="logout" href="#index.html">Log Out(${
           logged_user.fn + logged_user.ln
