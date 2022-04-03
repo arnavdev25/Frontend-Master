@@ -36,7 +36,9 @@ body {
   margin-bottom: 70px;
   /* flex-wrap: wrap; */
 }
-
+#cointainer > div {
+  /* border: 2px solid teal; */
+}
 #first_parent {
   width: 50%;
   margin: 0 25px 0 0;
@@ -44,9 +46,6 @@ body {
 #second_child {
   width: 50%;
   margin: 0 0 0 25px;
-}
-#fix {
-  /* display: flex; */
 }
 /*.................first_parent.....................*/
 /* ................#continue_watching............... */
@@ -102,11 +101,10 @@ body {
 
 #welcome_two {
   display: flex;
-  
 }
 .image {
   width: 14%;
-  height:70px;
+  height: 70px;
   /* border: 3px solid red; */
 }
 .text {
@@ -126,7 +124,7 @@ body {
   font-size: 18px;
 }
 .text p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .image > img {
   height: 100%;
@@ -161,8 +159,8 @@ body {
   text-decoration: none;
   color: #cd564a;
 }
-#welcome_five p a:hover{
-    text-decoration: underline;
+#welcome_five p a:hover {
+  text-decoration: underline;
 }
 
 /* ................#learning............... */
@@ -183,7 +181,7 @@ body {
 
 #beginner {
   max-width: 100%;
-  margin:5% 0;
+  margin: 5% 0;
   /* border: 1px solid yellowgreen; */
 }
 #beginner #option {
@@ -203,6 +201,8 @@ body {
   /* border: 2px solid red; */
   background-color: #383838;
   display: flex;
+  align-items: center;
+  padding: 20px;
 }
 #progress_bar {
   /* border: 5px solid yellow; */
@@ -213,18 +213,18 @@ body {
   width: 50%;
 }
 #content h2 {
-  margin: 30% 0 5% 5%;
+  /* margin: 30% 0 5% 5%; */
   color: #eee2e2;
   font-size: 30px;
 }
 #content p {
-  padding: 0 25% 0 5%;
+  /* padding: 0 25% 0 5%; */
   color: #eee2e2;
   font-size: 18px;
   line-height: 26px;
 }
 #content a {
-  margin: 20px 0 0 20px;
+  /* margin: 20px 0 0 20px; */
   color: #cd564a;
   font-size: 16px;
   line-height: 35px;
@@ -233,8 +233,8 @@ body {
   max-width: 100%;
   background-color: black;
 }
-#fullstack>div{
-    margin:3% 0 0 2%;
+#fullstack > div {
+  margin: 3% 0 0 2%;
 }
 #fullstack #welcome_two,
 #fullstack #welcome_three,
@@ -269,23 +269,21 @@ body {
   top: 0; */
   z-index: 1;
 }
-#video_youtube iframe{
-    width:98%;
-
+#video_youtube iframe {
+  width: 98%;
 }
 
-.button button{
-    background-color: #d1561c;
-    height:60px;
-    width:200px;
-    border-radius: 30px;
-    color:white;
-    font-size: 25px;
-    border-style: none;
-   
+.button button {
+  background-color: #d1561c;
+  height: 60px;
+  width: 200px;
+  border-radius: 30px;
+  color: white;
+  font-size: 25px;
+  border-style: none;
 }
-.button button:hover{
-    background-color: #f18350;
+.button button:hover {
+  background-color: #f18350;
 }
 .paragraph {
   /* border: 3px solid lime; */
@@ -302,22 +300,199 @@ body {
   color: #a8a0a0;
   line-height: 20px;
 }
-.paragraph p span{
-    color:rgb(138, 9, 9);
+.paragraph p span {
+  color: rgb(138, 9, 9);
 }
-#second  {
-    background-color: black;
+#second {
+  background-color: black;
 }
-#welcome_four, #welcome_three, #welcome_two {
-    margin: 1% 0 1% 2%;
+#welcome_four,
+#welcome_three,
+#welcome_two {
+  margin: 1% 0 1% 2%;
 }
-hr{
-    width:98%;
-    margin: auto;
-    color:grey;
-    margin-top: 2%;
+hr {
+  width: 98%;
+  margin: auto;
+  color: grey;
+  margin-top: 2%;
 }
 
+.circular {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.circular .inner,
+.circular .outer,
+.circular .circle {
+  position: absolute;
+  z-index: 6;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.circular .inner {
+  height: 164px;
+  width: 164px;
+  background-color: #222222;
+  border-radius: 100%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.circular .circle {
+  z-index: 1;
+  box-shadow: none;
+}
+.circular .numb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4158d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular .numb.orange {
+  color: #c63528;
+}
+.circular .numb p {
+  font-size: 70px;
+  color: #fff;
+}
+.circular .numb .img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+  font-size: 95px;
+  color: #000;
+  opacity: 0.3;
+}
+.circular .numb .img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.circular .bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-border-radius: 100%;
+  clip: rect(0px, 220px, 220px, 100px);
+}
+.circle .bar .progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  clip: rect(0px, 100px, 200px, 0px);
+}
+.circle .bar .progress {
+  background: #4158d0;
+}
+
+@keyframes left {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.circle .right {
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right .progress {
+  animation: right 1s linear both;
+  animation-delay: 1s;
+  /* animation: rightRreverse 4s linear both;
+  animation-delay: 16s; */
+}
+@keyframes right {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.circle .dot {
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 10px;
+  margin-top: -5px;
+  animation: dot 2s linear both;
+  transform-origin: 0% 50%;
+  display: none;
+}
+.circle .dot span {
+  position: absolute;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.circle .reverse-left .progress {
+  animation: leftRreverse 1s linear both;
+  animation-delay: 1s;
+}
+
+@keyframes leftRreverse {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.circle .reverse .progress {
+  animation: rightRreverse 1s linear both;
+}
+@keyframes rightRreverse {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes dot {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+    z-index: 4;
+  }
+  100% {
+    transform: rotate(270deg);
+    z-index: 4;
+  }
+}
+@keyframes dot-reverse {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+    z-index: 4;
+  }
+  100% {
+    transform: rotate(270deg);
+    z-index: 4;
+  }
+}
 @media only screen and (min-width: 381px) and (max-width: 768px) {
   #cointainer {
     display: flex;
@@ -369,10 +544,10 @@ hr{
     width: 90%;
     margin: auto;
   }
-  .button button{
-      width:80%;
+  .button button {
+    width: 80%;
   }
-  #video_youtube iframe{
-      width:98%;
+  #video_youtube iframe {
+    width: 98%;
   }
 }

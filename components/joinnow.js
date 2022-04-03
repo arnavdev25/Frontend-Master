@@ -101,7 +101,7 @@ const joinnow = () => {
         </div>
         <div class="horizontal">
           <div class="vertical-margin">
-              <label for="username">Fisrt Name</label>
+              <label for="username">First Name</label>
               <input required type="text" id="first_name"  />
             </div>
             <div class="vertical-margin">
