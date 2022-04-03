@@ -21,6 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./Styles/dashboard.css" />
+    <link rel="stylesheet" href="styles/learn-page.css" />
     <title>Home</title>
   </head>
   <body>
@@ -37,7 +38,7 @@
         <div class="continue_watching">
           <p>
             Continue Watching
-            <span><i class="fa-solid fa-square-ellipsis-vertical"></i></span>
+            <!-- <span><i class="fa-solid fa-square-ellipsis-vertical"></i></span> -->
           </p>
         </div>
         <div id="welcome">
@@ -110,60 +111,27 @@
             </select>
           </div>
           <div id="circle">
-            <div id="progress_bar">
-              <svg
-                class="circle-progress"
-                viewBox="0 0 120 120"
-                data-slug="beginner"
-                data-progress="0"
-              >
-                <defs>
-                  <linearGradient
-                    id="linear-beginner"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="0%"
-                  >
-                    <stop offset="0%" stop-color="#707070" />
-                    <stop offset="100%" stop-color="#707070" />
-                  </linearGradient>
-                </defs>
-                <text
-                  class="circle-progress-value"
-                  x="60"
-                  y="34"
-                  text-anchor="middle"
-                  font-family="Open Sans"
-                  font-size="35"
-                  transform="rotate(90 40,40)"
-                  fill="white"
-                >
-                  0%
-                </text>
-                <circle
-                  cx="60"
-                  cy="60"
-                  r="54"
-                  fill="none"
-                  stroke="#707070"
-                  stroke-width="10"
-                />
-                <circle
-                  class="circle-progress-bar"
-                  cx="60"
-                  cy="60"
-                  r="54"
-                  fill="none"
-                  stroke="url(#linear-beginner)"
-                  stroke-width="10"
-                />
-              </svg>
+            <div class="circular">
+              <div class="inner"></div>
+              <div class="outer"></div>
+              <div class="numb orange">
+                <div class="img"><i class="fas fa-seedling"></i></div>
+                <p class="">0%</p>
+              </div>
+              <div class="circle">
+                <div class="dot"><div class="orange"></div></div>
+                <div class="bar left">
+                  <div class="progress orange"></div>
+                </div>
+                <div class="bar right">
+                  <div class="progress orange"></div>
+                </div>
+              </div>
             </div>
             <div id="content">
               <h2>Beginner</h2>
               <p>Your Path to Becoming a Career-Ready Web Developer!</p>
-              <a href="">View Path </a>
+              <a href="learn.html">View Path </a>
             </div>
           </div>
         </div>
@@ -289,7 +257,7 @@
         <div class="continue_watching">
           <p>
             Your Bookmarks
-            <span><i class="fa-regular fa-ellipsis-vertical"></i></span>
+            <!-- <span><i class="fa-regular fa-ellipsis-vertical"></i></span> -->
           </p>
         </div>
 
@@ -305,7 +273,7 @@
         <div class="continue_watching">
           <p>
             Your Notes
-            <span><i class="fa-regular fa-ellipsis-vertical"></i></span>
+            <!-- <span><i class="fa-regular fa-ellipsis-vertical"></i></span> -->
           </p>
         </div>
 

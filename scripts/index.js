@@ -86,10 +86,10 @@ prev.addEventListener("click", prevItem);
 next.addEventListener("click", nextItem);
 
 // On window resizing Event
-// let resizeTimeout;
-// window.addEventListener("resize", function (event) {
-//   clearTimeout(resizeTimeout);
-//   resizeTimeout = setTimeout(function () {
-//     window.location.reload();
-//   }, 1500);
-// });
+let resizeTimeout;
+window.addEventListener("resize", function (event) {
+  clearTimeout(resizeTimeout);
+  resizeTimeout = setTimeout(function () {
+    window.location.reload();
+  }, 1500);
+});

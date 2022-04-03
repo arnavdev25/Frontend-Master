@@ -2,7 +2,7 @@ let twittweData = [
   [
     {
       name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      user_name: "@@NegarDev",
       profile_pic:
         "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
       msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
@@ -14,7 +14,7 @@ let twittweData = [
       profile_pic:
         "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
       msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
+      time: "4:56pm · Dec 16, 2021",
     },
     {
       name: "Bhargav",
@@ -22,7 +22,7 @@ let twittweData = [
       profile_pic:
         "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
       msg: "Madly appreciate @FrontendMasters. Their Typescript courses are incredible! 🎉🎉",
-      time: "8:56pm · Dec 16, 2021",
+      time: "12:56pm · Nov 30, 2021",
     },
     {
       name: "Kevin Powell",
@@ -30,323 +30,223 @@ let twittweData = [
       profile_pic:
         "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
       msg: "@AlveeAkand @elyktrix @FrontendMasters Yes! @FrontendMasters is amazing. Super talented educators and quality content.",
-      time: "8:56pm · Dec 16, 2021",
+      time: "10:44pm · Oct 11, 2020",
     },
     {
       name: "AJ Thompson",
       user_name: "@ajthompson",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
+        "https://pbs.twimg.com/profile_images/1236097570637844486/YNWHjUtv_reasonably_small.jpg",
       msg: "@acandael @scotups @FrontendMasters @FrontendMasters always delivers great courses. I’ve taken all of @scotups. He teaches in a way that feels like a conversation amongst friends.",
-      time: "8:56pm · Dec 16, 2021",
+      time: "3:57pm · Oct 11,2020",
     },
     {
       name: "Dave Halewood",
       user_name: "@halewood",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
+        "https://pbs.twimg.com/profile_images/1057964722585305088/jZJUDPhj_reasonably_small.jpg",
       msg: "@kieranmv95 @FrontendMasters Yes definitely, I’ve had membership for a couple of years, really good content given by top instructors.",
-      time: "8:56pm · Dec 16, 2021",
+      time: "8:33pm · Oct 5, 2020",
     },
   ],
   [
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Andrew Poe",
+      user_name: "@andrewtpoe",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/599651293423128578/-7h5hALt_reasonably_small.png",
+      msg: "@FrontendMasters is dollar for dollar the best money I've spent on continued education as a developer. So much A+ content.",
+      time: "2:50pm · Oct 21, 2020",
     },
     {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
+      name: "PurpleDoll lvl0",
+      user_name: "@purpledoll001",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1216765400534409216/iKnNkFof_reasonably_small.jpg",
+      msg: "What an incredible XSTATE course you have on @FrontendMasters @DavidKPiano. Amazing tool and amazing way to reach our brains :D",
+      time: "9:48pm · Sep 2, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Sarah Drasner",
+      user_name: "@sarah_edo",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1281071936605323266/wc1KRZLK_reasonably_small.jpg",
+      msg: "I've really been enjoying @scotups courses, he's got everything from Next.js to GraphQL, to API design. He's a great instructor, does an amazing job walking through things and speaking to community and preferences too, hard to do! https://t.co/KaJnQw3HFo",
+      time: "6:07pm Oct 1,2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Gustavo Sanchez",
+      user_name: "@gusanchedev",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1260995399088824328/Z8L5nVjn_reasonably_small.jpg",
+      msg: `I just completed "JavaScript: The Hard Parts, v2" by @willsentance on @FrontendMasters! https://t.co/fB36c8Ohiv No better resource for full understanding Closures, asynchronous JS and classes and prototypes. Thanks @willsentance`,
+      time: "5:51pm · Aug 21, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Tracey “3Shots” Berg-Fulton",
+      user_name: "@BergFulton",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1395830541409206277/DNlCTovQ_reasonably_small.jpg",
+      msg: "OMG @sarah_edo 's Intro to Vue course on @FrontendMasters is *so good*. I've made a few attempts to learn but this is the first time the lightbulb has fully come on. https://t.co/Nwp7QzbyqW",
+      time: "5:44pm · Aug 27, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "J.",
+      user_name: "@jsilvax",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-  ],
-  [
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1395830541409206277/DNlCTovQ_reasonably_small.jpg",
+      msg: "I’ve been using @FrontendMasters for years now. It’s crazy seeing it grow over the years and how there’s just so much great content to learn from. I feel like every company should have a subscription for their devs on there. The best bang for your buck.",
+      time: "2:53am · Aug 28, 2020",
     },
   ],
   [
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Megan Sullivan",
+      user_name: "@meganesulli",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1298757926790680576/bI2v6ehX_reasonably_small.jpg",
+      msg: `Just finished "Accessibility in JavaScript Applications" by @marcysutton on @FrontendMasters 🎉 10/10, would recommend! Good pace, great explanations, lots of code examples. Now I'm excited to make some #a11y improvements to my own projects! 🧠⚙️ https://t.co/gvliKoyehW`,
+      time: "11:15pm · Aug 25, 2020",
     },
     {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
+      name: "Anthony R. 🇫🇷🚀💻",
+      user_name: "@AnthonyHexium",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1388480669903466496/qBizVmo3_reasonably_small.jpg",
+      msg: "@catalinmpit @FrontendMasters This is the best investment I made in my career. I mean, by faaaaaaaar.",
+      time: "6:36pm · Aug 20, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Jeremy Stuart Barnes",
+      user_name: "@JeremyStuBarnes",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1204835226016346112/aXwPlrg4_reasonably_small.jpg",
+      msg: `I'm finishing up @FrontendMasters course "Full Stack for Front-End Engineers, v2" and it is one of the most enlightening courses I've taken on how the web works and learning about all of the intimidating ideas around servers, packets, proxies, etc. Highly recommend`,
+      time: "5:32pm · Aug 16, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Marco Monsanto",
+      user_name: "@marcomonsanto2",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1482381957560471554/I93pjNXG_reasonably_small.jpg",
+      msg: "Shout-out to @JemYoung and @willsentance for their amazing courses in @FrontendMasters!! Not only the content is amazing but they are also incredibly easy to watch and stay engaged.",
+      time: "1:50pm · Aug 1, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Sandeep Ranjan",
+      user_name: "@sandeepranjan_",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1500588301400809473/NQ5s9b7O_reasonably_small.jpg",
+      msg: "Thank you @FrontendMasters &amp; @stevekinney for this awesome course State Management with Redux. Finally got confident with Redux.",
+      time: "11:43pm · Apr 28, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Kevin",
+      user_name: "@optimistic_updt",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-  ],
-  [
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
-    },
-    {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
-      profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1243303350042415104/yrucLbdT_reasonably_small.jpg",
+      msg: "Im in love with Frontend Masters and @holtbt!! Just working my way through the React lessons and I just love the way @holtbt explains the concepts and configs he runs. Awesome job!! #reactjs",
+      time: "8:06am · Jul 25, 2020",
     },
   ],
   [
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Joss Stancek",
+      user_name: "@JossWriteCode",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/3186893733/e380c06fba1c4e2ba4538d77ccb6ad8d_reasonably_small.jpeg",
+      msg: "Watching JavaScript: The Hard Parts, v2 with @willsentance on @FrontendMasters. He is an amazing teacher. I now understand what's happening on every line of a JS promise. Feels so good!",
+      time: "3:55pm · Jul 22, 2020",
     },
     {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
+      name: "Jay Papisan",
+      user_name: "@papistan1",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1139758277699313664/7xmfaORG_reasonably_small.jpg",
+      msg: "Building out our @storybookjs + Design System for work with a little help from @EmmaBostian 's @FrontendMasters DS &amp; React course - super concise and helpful to get up and running fast🔥",
+      time: "3:37am · Jul 19, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "billyhunt",
+      user_name: "@billyhunt",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1655720266/headshot-small_reasonably_small.jpg",
+      msg: "I really enjoyed watching @scotups's Client-Side GraphQL in React class on @FrontendMasters this weekend. He is a good teacher.",
+      time: "2:29pm · Jul 13, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Melvin",
+      user_name: "@Melvin_manni",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1502654407242047491/NvKStHkL_reasonably_small.jpg",
+      msg: "@holtbt React course on @FrontendMasters provided more insight and helped me appreciate React more. I already know some of the things being taught but i had no problem re-learning it. So far that is the best React course I've come across. 💯",
+      time: "8:56am · Jul 4, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Caleb Lovell",
+      user_name: "@NCaleb_Lovell",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1119737710057385984/tDO-nNID_reasonably_small.png",
+      msg: "@holtbt Hey Brian, many thanks for your course on containers and Docker on @FrontendMasters! SO glad to finally grasp how they work. I've lost many hours to failing with Docker because I didn't understand the internals. No more! Looking forward to Intro to Linux. Thanks!!",
+      time: "5:50pm · Jun 26, 2020",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Jimmy",
+      user_name: "@jimmyaldape",
       profile_pic:
         "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+      msg: "@FrontendMasters courses are already paying off. Can’t stop. Won’t stop.",
+      time: "9:56pm · Jun 9, 2020",
     },
   ],
   [
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Stefan Fejes",
+      user_name: "@fejas713",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1176389111634112512/70t8NtS3_reasonably_small.jpg",
+      msg: "@FrontendMasters is like a fully fledged University at this point. There're many courses to chose from industry leading professionals. Having the ability to learn what you want when you want it is phenomenal.",
+      time: "11:51am · Apr 7, 2019",
     },
     {
-      name: "Brennnan.eth",
-      user_name: "@brennan",
+      name: "Sam Ratemo",
+      user_name: "@sammyeast",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1426593683474948096/slmgOn-I_reasonably_small.jpg",
-      msg: "@mathesondavid @FrontendMasters Without a doubt, @FrontendMasters has been one of, if not the best, resources for learning new topics, techniques, and technologies.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1197971799251664897/-3c53xLD_reasonably_small.jpg",
+      msg: "@scotups following your node.js v3 on frontend masters, loving it. its straight 🔥🔥",
+      time: "10:51pm · Apr 3, 2019",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Olivia Oddo",
+      user_name: "@OliviaOddo",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/950536864787656704/Kd3wLQJx_reasonably_small.jpg",
+      msg: "Thank you @TheLarkInn and @stevekinney for your @FrontendMasters courses! I don’t think I would have landed my new job as a build infrastructure/web performance engineer without y’all 😍",
+      time: "6:44pm · Oct 18, 2018",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Nhu Phan 👩🏻‍💻🧘🏻‍♀️",
+      user_name: "@Nhuphan0404",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1251337586661974016/eheDTCuo_reasonably_small.jpg",
+      msg: "I have recently spent most of my time on @FrontendMasters, 👩🏻‍💻 with the beginning path🤓 , I tend to understand things clearly rather than doing without understanding it. Can't recommend FM enough, its content is amazing, feel like it is tailor-made for me 🤪🤓.",
+      time: "3:33am · Mar 1, 2019",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Ricky Garcia",
+      user_name: "@RickyGarcia",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/1261295422061940736/zo-7G1lq_reasonably_small.jpg",
+      msg: "I loved, LOVED, Javascript the Hardparts taught by @willsentance on @FrontendMasters. What an incredible deep dive. #FrontEnd #webdevelopment",
+      time: "6:27pm · Jan 26, 2019",
     },
     {
-      name: "Negar Jamalifard",
-      user_name: "@NegarDev",
+      name: "Kelly Watson",
+      user_name: "@KellyWatson",
       profile_pic:
-        "https://pbs.twimg.com/profile_images/1323722809168809990/1Fm6IBuY_reasonably_small.jpg",
-      msg: "I think I should subscribe to @FrontendMasters for life. The courses are super rich and on point. Never had this level of satisfaction with any education platforms.",
-      time: "8:56pm · Dec 16, 2021",
+        "https://pbs.twimg.com/profile_images/935215363792560128/MY76hbgO_reasonably_small.jpg",
+      msg: "@ArlanWasHere @FrontendMasters - it’s really worth the subscription. The tracks are fantastic. I wish I would have started there instead of cobbling together online places to learn on my own.",
+      time: "5:21pm · Apr 3, 2019",
     },
   ],
 ];
