@@ -6,7 +6,8 @@ Description:-
 We had to clone the  frontend Master website. This website is all about learning front-end courses. It provides a lot of courses courses through which one can become a master in front-end. We have made all the pages like landing page,signup page, login page, etc with different functionalities and simple and attractive UI.
 <img src="https://miro.medium.com/max/1400/1*qfGIYSCoOtadJiXk-sRAKw.png"/>
 <img src="https://miro.medium.com/max/1400/1*wECzToRl1FGuBKfS8NJJkA.png"/>
-
+<img src="https://miro.medium.com/max/1400/1*pf_xqmC8tNFu9plwRjgu0g.png"/>
+<img src="https://miro.medium.com/max/1400/1*qMc1Dm6YDqSNTmw1-6kj3Q.png"/>
 Technologies Used:-
 ●	HTML
 ●	CSS
