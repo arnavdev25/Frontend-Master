@@ -4,6 +4,8 @@ In the construct week of unit-3, we tried to make clone of frontend Master Websi
 
 Description:-
 We had to clone the  frontend Master website. This website is all about learning front-end courses. It provides a lot of courses courses through which one can become a master in front-end. We have made all the pages like landing page,signup page, login page, etc with different functionalities and simple and attractive UI.
+<img src="https://miro.medium.com/max/1400/1*qfGIYSCoOtadJiXk-sRAKw.png"/>
+<img src="https://miro.medium.com/max/1400/1*wECzToRl1FGuBKfS8NJJkA.png"/>
 
 Technologies Used:-
 ●	HTML
